@@ -1,0 +1,44 @@
+﻿Weapon,Row status,Clustered procs,Payload events,Landed eligible hits,Speed-minutes,PPM,CI low,CI high,Payloads per hit,Screen,Upstream status,Upstream measured value
+Angerforge's Battle Axe,measured (observed; EV-0136 bar needs 5+ wearers),62,69,316,13.69,4.53,3.47,5.80,0.20,clean,⏳,"white 1.70 [1.41, 2.00] (298/4,035); specials 2.25 [2.24, 2."
+Barbaric Crossbow,measured (observed; EV-0136 bar needs 5+ wearers),117,117,703,23.43,4.99,4.13,5.98,0.17,clean,✅,"3.44 [3.17, 3.71]"
+Bigger Rock to the Face,measured (observed; EV-0136 bar needs 5+ wearers),158,165,10917,309.0,0.51,0.43,0.60,0.01,clean,✅,2.0
+Boneslicer,measured (observed; EV-0136 bar needs 5+ wearers),7,7,46,1.92,3.65,1.47,7.52,0.15,clean,⏳,"2.78 [2.41, 3.38]. Recheck 11-19: white 3.02 [2.67, 3.57] (1"
+Bow of Searing Arrows,measured (observed; EV-0136 bar needs 5+ wearers),285,286,734,33.03,8.63,7.66,9.69,0.39,clean,✅,"5.42 [4.94, 5.81]"
+Cobalt Crusher,measured (observed; EV-0136 bar needs 5+ wearers),37,37,1312,24.98,1.48,1.04,2.04,0.03,clean,⏳,"2.24 [1.88, 2.66]. Recheck 11-19: all hits 2.04 (Poisson ≈[1"
+Cremation Longbow,measured (observed; EV-0136 bar needs 5+ wearers),78,78,600,28.0,2.79,2.20,3.48,0.13,clean,✅,2.3
+Crusader,measured (observed; EV-0136 bar needs 5+ wearers),150,154,1183,69.12,2.17,1.84,2.55,0.13,clean,✅,"0.95 [0.91, 1.00]; main hand alone 1.08, dual-wield main han"
+Cursed Murloc Eye,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,❌,"every landed direct hit that leaves the target alive (100%, "
+Destiny,measured (observed; EV-0136 bar needs 5+ wearers),42,42,300,18.0,2.33,1.68,3.15,0.14,clean,✅,"1.05 [0.96, 1.12] all hits; lone white swings 0.89 [0.67, 0."
+Diabolic Skiver,measured (observed; EV-0136 bar needs 5+ wearers),70,70,1509,31.18,2.25,1.75,2.84,0.05,clean,⏳,"white 2.00 [1.64, 2.37] (160/1,654); specials 1.86 [1.34, 2."
+Dwarven Hand Cannon,measured (observed; EV-0136 bar needs 5+ wearers),105,107,246,11.89,8.83,7.22,10.69,0.43,clean,✅,"4.31 [4.03, 4.60]"
+Fiery Blaze,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,
+Fiery Weapon,measured (observed; EV-0136 bar needs 5+ wearers),351,408,661,33.57,10.45,9.39,11.61,0.53,quarantine (0.53/hit),✅,6.11 and 5.63 on two two-handers
+Flame Wrath,measured (observed; EV-0136 bar needs 5+ wearers),581,1623,8287,293.21,1.98,1.82,2.15,0.07,clean,✅,"1.88 pooled; Bear Form 7.8% [7.4, 8.2] a swing at 2.5 s, Cat"
+Force of Will,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,"6.19% [6.08, 6.30] ([EV-0154], 277 wearers)"
+Galgann's Fireblaster,measured (observed; EV-0136 bar needs 5+ wearers),650,660,1962,85.02,7.65,7.07,8.26,0.33,clean,✅,"4.27 [4.04, 4.51]"
+Grim Reaper,measured (observed; EV-0136 bar needs 5+ wearers),29,29,251,12.97,2.24,1.50,3.21,0.12,clean,⏳,"1.10 [0.97, 1.24]. Recheck 11-19: all hits 0.98 [0.80, 1.09]"
+Guardian's Dualblade,measured (observed; EV-0136 bar needs 5+ wearers),5,5,155,9.04,0.55,0.18,1.29,0.03,clean,✅,
+Hand of Justice,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,
+Heart of Wyrmthalak,measured (observed; EV-0136 bar needs 5+ wearers),1170,1205,5966,245.63,4.76,4.49,5.04,0.20,clean,✅,"2.00 [1.88, 2.12] ([EV-0133], 8 wearers); 44 more wearers 1."
+Iron Shield Spike,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,
+Ironforge Greathammer,measured (observed; EV-0136 bar needs 5+ wearers),157,157,1165,52.35,3.00,2.55,3.51,0.13,clean,✅,"3.29 [3.03, 3.63]"
+Loksey's Training Stick,measured (observed; EV-0136 bar needs 5+ wearers),99,100,2185,44.89,2.21,1.79,2.68,0.05,clean,✅,"all hits 1.92 [1.86, 1.99]"
+Mark of the Chosen,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,"2.00% [1.77, 2.26] a landed hit taken ≥ 120 s after the last"
+Mithril Shield Spike,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,
+Naga Heartpiercer,measured (observed; EV-0136 bar needs 5+ wearers),264,269,1700,68.0,3.88,3.43,4.38,0.16,clean,✅,"2.22 [2.05, 2.43]"
+Nightblade,measured (observed; EV-0136 bar needs 5+ wearers),44,51,123,7.17,6.13,4.46,8.23,0.36,clean,✅,"2.00 [1.91, 2.10]"
+Reforged Spear,measured (observed; EV-0136 bar needs 5+ wearers),11,11,796,13.27,0.83,0.41,1.48,0.01,clean,❌,
+Rot-Covered Harpoon,measured (observed; EV-0136 bar needs 5+ wearers),0,0,544,9.07,0.00,0.00,0.41,0.00,clean,✅,"1.43 [0.80, 2.52] on the 1.0 s paw (0.57 on the 2.5 s weapon"
+Shell Launcher Shotgun,measured (observed; EV-0136 bar needs 5+ wearers),1,1,17,0.65,1.53,0.04,8.55,0.06,clean,⏳,"all hits 3.70 [3.54, 3.85]"
+Spellsever Crossbow,measured (observed; EV-0136 bar needs 5+ wearers),308,308,4616,184.64,1.67,1.49,1.87,0.07,clean,✅,"1.01 [0.94, 1.09]"
+Stoneshatter,measured (observed; EV-0136 bar needs 5+ wearers),105,107,635,30.69,3.42,2.80,4.14,0.17,clean,✅,1.72
+Stoneslayer,measured (observed; EV-0136 bar needs 5+ wearers),105,110,518,33.67,3.12,2.55,3.78,0.20,clean,✅,"1.95 (pooled 1.97 [1.82, 2.13]): paladins 1.76 white, 1.95 c"
+Strike of the Hydra,measured (observed; EV-0136 bar needs 5+ wearers),42,42,228,12.54,3.35,2.41,4.53,0.18,clean,⏳,"2.23 [1.92, 2.64]. Recheck 11-19: all hits 2.12 [2.05, 2.18]"
+The Chief's Enforcer,measured (observed; EV-0136 bar needs 5+ wearers),82,86,2207,68.41,1.20,0.95,1.49,0.04,clean,✅,"1.01 [0.92, 1.11]"
+Thorium Shield Spike,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,
+Twilight Maul,measured (observed; EV-0136 bar needs 5+ wearers),110,114,1216,44.11,2.49,2.05,3.01,0.09,clean,⏳,"1.74 [1.58, 1.96]. Recheck 11-19: white 1.67 [1.53, 1.81] (3"
+Uther's Strength,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,
+Venomstrike,measured (observed; EV-0136 bar needs 5+ wearers),127,127,997,39.88,3.18,2.65,3.79,0.13,clean,✅,"2.05 [1.88, 2.23]"
+Verdant Keeper's Aim,measured (observed; EV-0136 bar needs 5+ wearers),3252,3307,7899,368.62,8.82,8.52,9.13,0.41,clean,✅,3.5 (per-run fit 3.0)
+Witchfury,measured (observed; EV-0136 bar needs 5+ wearers),12,12,199,9.29,1.29,0.67,2.26,0.06,clean,⏳,"1.02 [0.87, 1.16]. Recheck 11-19: all hits 1.05 (Poisson ≈[0"
+Zealot Plate,measured (observed; EV-0136 bar needs 5+ wearers),0,0,0,0,,,,,,✅,5.3% ± 0.2% a landed melee swing taken outside the 15 s cool

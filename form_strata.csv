@@ -1,34 +1,21 @@
-﻿Weapon,Form,Hand,Trigger,Procs,Rolls,Speed-minutes,PPM,CI low,CI high
-Bigger Rock to the Face,cat,main,white,18,5658,94.3,0.191,0.113,0.302
-Bigger Rock to the Face,dire_bear,main,white,18,1184,49.33,0.365,0.216,0.577
-Rot-Covered Harpoon,cat,main,white,0,471,7.85,0.0,0.0,0.0
-Boneslicer,bear,main,white,6,34,1.42,4.235,1.554,9.218
-Cobalt Crusher,bear,main,white,0,5,0.21,0.0,0.0,0.0
-Cobalt Crusher,cat,main,white,7,845,14.08,0.497,0.2,1.024
-Cobalt Crusher,dire_bear,main,white,0,87,3.62,0.0,0.0,0.0
-Diabolic Skiver,cat,main,white,30,829,13.82,2.171,1.465,3.1
-Diabolic Skiver,dire_bear,main,white,18,189,7.88,2.286,1.355,3.612
-Ironforge Greathammer,bear,main,white,2,635,26.46,0.076,0.009,0.273
-Loksey's Training Stick,bear,main,white,1,16,0.67,1.5,0.038,8.357
-Loksey's Training Stick,cat,main,white,15,487,8.12,1.848,1.034,3.048
-Loksey's Training Stick,dire_bear,main,white,8,108,4.5,1.778,0.768,3.503
-Reforged Spear,cat,main,white,7,601,10.02,0.699,0.281,1.44
-The Chief's Enforcer,cat,main,white,4,968,16.13,0.248,0.068,0.635
-The Chief's Enforcer,dire_bear,main,white,2,373,15.54,0.129,0.016,0.465
-Twilight Maul,bear,main,white,15,353,14.71,1.02,0.571,1.682
-Twilight Maul,cat,main,white,2,105,1.75,1.143,0.138,4.128
-Hand of Justice,cat,main,white,3,2200,2200,0.001,0.0,0.004
-Hand of Justice,dire_bear,main,white,0,416,416,0.0,0.0,0.0
-Heart of Wyrmthalak,cat,main,white,28,1206,20.1,1.393,0.926,2.013
-Heart of Wyrmthalak,dire_bear,main,white,34,491,20.46,1.662,1.151,2.322
-Fiery Blaze,cat,main,white,76,593,593,0.128,0.101,0.16
-Fiery Blaze,dire_bear,main,white,14,138,138,0.101,0.055,0.17
-Flame Wrath,cat,main,white,47,1549,25.82,1.821,1.338,2.421
-Flame Wrath,dire_bear,main,white,345,4537,189.04,1.825,1.637,2.028
-Mark of the Chosen,cat,main,incoming_white,5,125,125,0.04,0.013,0.093
-Mark of the Chosen,dire_bear,main,incoming_white,159,7146,7146,0.022,0.019,0.026
-Mark of the Chosen,dire_bear,unknown,incoming_white,0,1,1,0.0,0.0,0.0
-Force of Will,dire_bear,main,incoming_white,324,4971,4971,0.065,0.058,0.073
-Cursed Murloc Eye,bear,main,direct_auto,338,339,339,0.997,0.894,1.109
-Cursed Murloc Eye,cat,main,direct_auto,54,54,54,1.0,0.751,1.305
-Cursed Murloc Eye,dire_bear,main,direct_auto,559,560,560,0.998,0.917,1.085
+﻿Weapon,Form,"Onsets (clustered, form-attributed)",Paw rolls,Speed-minutes,PPM (onsets),CI low,CI high,Isolated procs,Isolated rolls
+Bigger Rock to the Face,cat,41,7057,117.62,0.35,0.25,0.47,18,5658
+Bigger Rock to the Face,bear,30,1823,75.96,0.39,0.27,0.56,18,1184
+Boneslicer,bear,7,46,1.92,3.65,1.47,7.52,6,34
+Cobalt Crusher,cat,31,1188,19.8,1.57,1.06,2.22,7,845
+Cobalt Crusher,bear,6,123,5.12,1.17,0.43,2.55,0,92
+Diabolic Skiver,cat,47,1268,21.13,2.22,1.63,2.96,30,829
+Diabolic Skiver,bear,23,241,10.04,2.29,1.45,3.44,18,189
+Flame Wrath,cat,62,2087,34.78,1.78,1.37,2.29,47,1549
+Flame Wrath,bear,498,6193,258.04,1.93,1.76,2.11,345,4537
+Heart of Wyrmthalak,cat,70,1683,28.05,2.50,1.95,3.15,28,1206
+Heart of Wyrmthalak,bear,286,721,30.04,9.52,8.45,10.69,34,491
+Ironforge Greathammer,bear,82,784,32.67,2.51,2.00,3.12,2,635
+Loksey's Training Stick,cat,55,1896,31.6,1.74,1.31,2.27,15,487
+Loksey's Training Stick,bear,13,164,6.83,1.90,1.01,3.25,9,124
+Reforged Spear,cat,11,796,13.27,0.83,0.41,1.48,7,601
+Rot-Covered Harpoon,cat,0,544,9.07,0.00,0.00,0.41,0,471
+The Chief's Enforcer,cat,20,1234,20.57,0.97,0.59,1.50,4,968
+The Chief's Enforcer,bear,24,486,20.25,1.19,0.76,1.76,2,373
+Twilight Maul,cat,19,440,7.33,2.59,1.56,4.05,2,105
+Twilight Maul,bear,36,443,18.46,1.95,1.37,2.70,15,353

@@ -1,10 +1,10 @@
-﻿Weapon,Item,Payload spell,Status upstream,Procs (row convention),Landed eligible hits,Speed-minutes,PPM,CI low,CI high,Isolated procs,Isolated rolls,Isolated PPM,Wearers,Reports
-Angerforge's Battle Axe,11816,1300783,open (hourglass),83,316,13.69,6.061,4.828,7.514,7,106,1.524,1,1
-Boneslicer,273819,1292573,open (hourglass),9,46,1.92,4.696,2.147,8.914,6,34,4.235,1,1
-Cobalt Crusher,7730,18204,open (hourglass),45,1312,24.98,1.802,1.314,2.411,7,937,,2,2
-Diabolic Skiver,9475,18206,open (hourglass),168,1509,31.18,5.389,4.605,6.268,48,1018,,4,5
-Grim Reaper,13054,14126,open (hourglass),70,251,12.97,5.398,4.208,6.82,13,190,1.324,1,1
-Strike of the Hydra,6909,1292657,open (hourglass),53,228,12.54,4.226,3.166,5.528,1,83,0.219,1,4
-Twilight Maul,273841,1292679,open (hourglass),228,1216,44.11,5.169,4.52,5.886,29,703,,3,4
-Witchfury,13051,18214,open (hourglass),55,199,9.29,5.922,4.462,7.709,2,52,0.824,1,2
-Shell Launcher Shotgun,13146,29647,open (hourglass),1,17,0.65,1.535,0.039,8.55,0,17,0.0,1,1
+﻿Weapon,Item,Payload spell,Upstream status,Upstream measured,Observed (this corpus) PPM,Poisson CI low,Poisson CI high,Wearer-bootstrap CI low,Wearer-bootstrap CI high,Clustered procs,Landed eligible hits,Speed-minutes,Payloads per hit,Screen,Wearers,Runs,Isolated procs (lower bound),Isolated rolls
+Angerforge's Battle Axe,11816,1300783,⏳,"white 1.70 [1.41, 2.00] (298/4,035); specials 2.25 [2.24, 2.",4.53,3.47,5.80,single wearer,single wearer,62,316,13.69,0.20,clean,1,3,7,106
+Boneslicer,273819,1292573,⏳,"2.78 [2.41, 3.38]. Recheck 11-19: white 3.02 [2.67, 3.57] (1",3.65,1.47,7.52,single wearer,single wearer,7,46,1.92,0.15,clean,1,1,6,34
+Cobalt Crusher,7730,18204,⏳,"2.24 [1.88, 2.66]. Recheck 11-19: all hits 2.04 (Poisson ≈[1",1.48,1.04,2.04,1.39,1.53,37,1312,24.98,0.03,clean,2,2,7,937
+Diabolic Skiver,9475,18206,⏳,"white 2.00 [1.64, 2.37] (160/1,654); specials 1.86 [1.34, 2.",2.25,1.75,2.84,1.86,2.88,70,1509,31.18,0.05,clean,4,6,48,1018
+Grim Reaper,13054,14126,⏳,"1.10 [0.97, 1.24]. Recheck 11-19: all hits 0.98 [0.80, 1.09]",2.24,1.50,3.21,single wearer,single wearer,29,251,12.97,0.12,clean,1,3,13,190
+Strike of the Hydra,6909,1292657,⏳,"2.23 [1.92, 2.64]. Recheck 11-19: all hits 2.12 [2.05, 2.18]",3.35,2.41,4.53,single wearer,single wearer,42,228,12.54,0.18,clean,1,7,1,83
+Twilight Maul,273841,1292679,⏳,"1.74 [1.58, 1.96]. Recheck 11-19: white 1.67 [1.53, 1.81] (3",2.49,2.05,3.01,1.96,3.00,110,1216,44.11,0.09,clean,3,6,29,703
+Witchfury,13051,18214,⏳,"1.02 [0.87, 1.16]. Recheck 11-19: all hits 1.05 (Poisson ≈[0",1.29,0.67,2.26,single wearer,single wearer,12,199,9.29,0.06,clean,1,2,2,52
+Shell Launcher Shotgun,13146,29647,⏳,"all hits 3.70 [3.54, 3.85]",1.53,0.04,8.55,single wearer,single wearer,1,17,0.65,0.06,clean,1,1,0,17

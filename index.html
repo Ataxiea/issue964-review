@@ -1,44 +1,97 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>#964 druid-corpus proc measurements — review draft</title>
+<title>#964 druid-corpus proc observations — review draft</title>
 <style>
 :root { color-scheme: light dark; }
-body { font: 14px/1.45 system-ui, sans-serif; margin: 0 auto; max-width: 880px; padding: 16px; }
-body { background: Canvas; color: CanvasText; }
+body { font: 14px/1.45 system-ui, sans-serif; margin: 0 auto; max-width: 1000px; padding: 16px;
+  background: Canvas; color: CanvasText; }
 a { color: LinkText; }
 table { border-collapse: collapse; margin: 8px 0 16px; width: 100%; }
 th, td { border: 1px solid ButtonBorder; padding: 3px 8px; text-align: left; }
-th { background: ButtonFace; cursor: pointer; user-select: none; position: sticky; top: 0; }
-details { border: 1px solid ButtonBorder; border-radius: 6px; margin: 6px 0; padding: 6px 10px; }
-summary { cursor: pointer; }
-.sub table { font-size: 13px; }
-.grid td, .grid th { border: none; padding: 2px 10px 2px 0; }
+th { background: ButtonFace; cursor: pointer; user-select: none; }
+tr.warn td { background: color-mix(in srgb, CanvasText 12%, Canvas); }
 .note { opacity: .8; font-size: 13px; }
 </style></head><body>
-<h2>Druid-corpus proc measurements for #964 — review draft (2026-11-20)</h2>
-<p class="note">Not posted upstream — review first. 505 druid-containing reports
-(forever.warcraftlogs.com, zone 3000), every page SHA-256-verified; 6,368 fights;
-39.5M events. Non-druid denominators read high (specials beyond the named set not
-counted); druid form strata have the complete denominator (form specials roll no
-weapon proc, EV-0022). Click a weapon to expand its per-report evidence.</p>
-<h3>Open (⏳) rows — row convention: procs ÷ (landed eligible hits × speed ÷ 60)</h3>
-<details><summary><b>Cobalt Crusher</b> 7730/18204</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>1.80 [1.31–2.41]</td><th>procs/hits</th><td>45/1312</td><th>wearers</th><td>2</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/68qf9y7GHVgXNRwj#fight=1'>68qf9y7GHVgXNRwj/1</a></td><td>5</td><td>704</td><td>29</td><td>832</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/Q6AVZFfm814PXCbc#fight=1'>Q6AVZFfm814PXCbc/1</a></td><td>2</td><td>233</td><td>16</td><td>480</td></tr></tbody></table></div></details><details><summary><b>Diabolic Skiver</b> 9475/18206</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>5.39 [4.60–6.27]</td><th>procs/hits</th><td>168/1509</td><th>wearers</th><td>4</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/1nTQBK4hmcaLbFZV#fight=2'>1nTQBK4hmcaLbFZV/2</a></td><td>6</td><td>83</td><td>13</td><td>94</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/2xAYn8VDbPjXqCaw#fight=1'>2xAYn8VDbPjXqCaw/1</a></td><td>0</td><td>37</td><td>0</td><td>40</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/8AVdFqbaRBzGnZX2#fight=1'>8AVdFqbaRBzGnZX2/1</a></td><td>26</td><td>720</td><td>50</td><td>1147</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/MzFAfGZpt1nmRX7J#fight=1'>MzFAfGZpt1nmRX7J/1</a></td><td>16</td><td>178</td><td>26</td><td>228</td></tr></tbody></table></div></details><details><summary><b>Angerforge's Battle Axe</b> 11816/1300783</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>6.06 [4.83–7.51]</td><th>procs/hits</th><td>83/316</td><th>wearers</th><td>1</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/2WkFQGcDVYwpTMJ9#fight=10'>2WkFQGcDVYwpTMJ9/10</a></td><td>0</td><td>3</td><td>5</td><td>9</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/2WkFQGcDVYwpTMJ9#fight=7'>2WkFQGcDVYwpTMJ9/7</a></td><td>7</td><td>103</td><td>70</td><td>290</td></tr></tbody></table></div></details><details><summary><b>Twilight Maul</b> 273841/1292679</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>5.17 [4.52–5.89]</td><th>procs/hits</th><td>228/1216</td><th>wearers</th><td>3</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/1mxnqwaBfWMkVHQT#fight=3'>1mxnqwaBfWMkVHQT/3</a></td><td>15</td><td>351</td><td>42</td><td>441</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/4Zg8N21QCTnM3hP6#fight=1'>4Zg8N21QCTnM3hP6/1</a></td><td>2</td><td>107</td><td>21</td><td>442</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/NWQqXLPdxrZ3DG1B#fight=1'>NWQqXLPdxrZ3DG1B/1</a></td><td>12</td><td>245</td><td>78</td><td>333</td></tr></tbody></table></div></details><details><summary><b>Grim Reaper</b> 13054/14126</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>5.40 [4.21–6.82]</td><th>procs/hits</th><td>70/251</td><th>wearers</th><td>1</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/xQtGrv7cg6V8Z4BT#fight=50'>xQtGrv7cg6V8Z4BT/50</a></td><td>4</td><td>46</td><td>7</td><td>65</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/xQtGrv7cg6V8Z4BT#fight=52'>xQtGrv7cg6V8Z4BT/52</a></td><td>7</td><td>133</td><td>25</td><td>175</td></tr><tr><td><a href='https://forever.warcraftlogs.com/report/xQtGrv7cg6V8Z4BT#fight=56'>xQtGrv7cg6V8Z4BT/56</a></td><td>2</td><td>11</td><td>38</td><td>11</td></tr></tbody></table></div></details><details><summary><b>Boneslicer</b> 273819/1292573</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>4.70 [2.15–8.91]</td><th>procs/hits</th><td>9/46</td><th>wearers</th><td>1</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/2CDBQ4dprFTkjqYa#fight=1'>2CDBQ4dprFTkjqYa/1</a></td><td>6</td><td>34</td><td>9</td><td>46</td></tr></tbody></table></div></details><details><summary><b>Witchfury</b> 13051/18214</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>5.92 [4.46–7.71]</td><th>procs/hits</th><td>55/199</td><th>wearers</th><td>1</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/C8z3gcnBYGZQXJv2#fight=6'>C8z3gcnBYGZQXJv2/6</a></td><td>2</td><td>52</td><td>16</td><td>199</td></tr></tbody></table></div></details><details><summary><b>Shell Launcher Shotgun</b> 13146/29647</summary><div class='sub'><table class='grid'><tr><th>PPM</th><td>1.53 [0.04–8.55]</td><th>procs/hits</th><td>1/17</td><th>wearers</th><td>1</td></tr></table><table><thead><tr><th>report/fight</th><th>isolated procs</th><th>isolated rolls</th><th>row-conv procs</th><th>row-conv hits</th></tr></thead><tbody><tr><td><a href='https://forever.warcraftlogs.com/report/vGdq3ZrKyMAPaTJD#fight=7'>vGdq3ZrKyMAPaTJD/7</a></td><td>0</td><td>17</td><td>1</td><td>17</td></tr></tbody></table></div></details>
-<h3>Druid form strata — the segment the WCL sweep excludes</h3>
-<table><thead><tr><th>Weapon</th><th>Form</th><th>Procs</th><th>Paw rolls</th><th>PPM (95%)</th></tr></thead>
-<tbody><tr><td>Bigger Rock to the Face</td><td>cat</td><td>18</td><td>5658</td><td>0.19 [0.11–0.30]</td></tr><tr><td>Bigger Rock to the Face</td><td>dire_bear</td><td>18</td><td>1184</td><td>0.36 [0.22–0.58]</td></tr><tr><td>Diabolic Skiver</td><td>cat</td><td>30</td><td>829</td><td>2.17 [1.46–3.10]</td></tr><tr><td>Diabolic Skiver</td><td>dire_bear</td><td>18</td><td>189</td><td>2.29 [1.35–3.61]</td></tr><tr><td>Loksey's Training Stick</td><td>cat</td><td>15</td><td>487</td><td>1.85 [1.03–3.05]</td></tr><tr><td>Loksey's Training Stick</td><td>dire_bear</td><td>8</td><td>108</td><td>1.78 [0.77–3.50]</td></tr><tr><td>Cobalt Crusher</td><td>cat</td><td>7</td><td>845</td><td>0.50 [0.20–1.02]</td></tr><tr><td>Cobalt Crusher</td><td>dire_bear</td><td>0</td><td>87</td><td>0.00 [0.00–0.00]</td></tr><tr><td>Heart of Wyrmthalak</td><td>cat</td><td>28</td><td>1206</td><td>1.39 [0.93–2.01]</td></tr><tr><td>Heart of Wyrmthalak</td><td>dire_bear</td><td>34</td><td>491</td><td>1.66 [1.15–2.32]</td></tr></tbody></table>
-<h3>Left out on purpose</h3>
-<p class="note">Stoneslayer and Flame Wrath (payload also fires from secondary paths —
-EV-0119/EV-0151's corrections); per-cast payloads (Kindling Stave, Verigan's Fist,
-Warblade of Caer Darrow, Wolfsbane, Heartseeking Crossbow, Hurricane read 30–300);
-dual-wield rows (hand split unsolved). Strike of the Hydra: EV-0153's 2.11 stands.</p>
-<h3>Reproducibility</h3>
-<p class="note">Receipt <code>issue964-corpus-20261120-r18.json</code> sha256
-<code>fd7b35eda7b77aedcc1c8d8a7ab13755f503867335925ff3f8104ca75016a885</code>; census
-<code>issue964-channel-census-20261120.json</code> sha256
-<code>14f7e7daadfec425c5cc9d33ec6a61aff778de5ad1c7d2a2da83d9d0314db2ea</code>.
-Both regenerate from the page-verified ledger with one command.</p>
-<p class='note'>Full data behind every number: <a href='open_rows.csv'>open_rows.csv</a>, <a href='form_strata.csv'>form_strata.csv</a>, <a href='per_report.csv'>per_report.csv</a> (every report/fight row links to Warcraft Logs).</p>
+<h2>Druid-corpus proc observations for #964 — review draft (2026-11-20, rev 2)</h2>
+<p class="note">Not posted upstream. 505 druid-containing public reports
+(forever.warcraftlogs.com, zone 3000), every page SHA-256-verified; 6,368 fights; 39.5M
+events. Of the issue's 431 catalog rows this pass measures 43 (all listed in
+<a href="measured_rows.csv">measured_rows.csv</a>); nine of the 160 still-open (⏳) rows
+carry observations below. <b>These are observed counts, not "measured" rows</b> — the
+issue's own bar (EV-0136) is 5+ wearers with a 95% interval within ±10%, which none of
+the nine meet here.</p>
+
+<h3>Method</h3>
+<p class="note">Per-wearer gear from fight-scoped combatant_info only. A proc is any
+event of the item's payload spell, counted once when one proc logs several events
+within 50 ms (EV-0153's event policy), and every onset is attributed to the wearer's
+form at its first event. The rate is clustered onsets ÷ (landed eligible hits × swing
+speed ÷ 60), with numerator and denominator restricted to the same fights — fights
+whose hits are all pre-snapshot censored, or whose procs exceed their hits, are
+excluded and counted, never silently dropped. Intervals: exact Poisson 95% on proc
+counts, and the wider EV-0136 whole-wearer bootstrap (2,000 draws) where 2+ wearers
+exist. <b>Denominator caveat:</b> eligible hits are white swings of the item's hand
+(plus the paw for forms). Hits the proc flags hear beyond white — specials, seals,
+Judgements, Windfury strikes (EV-0155) — are not counted, so rows worn by
+special-heavy classes read <i>high</i> by that factor; druid form strata have the
+complete denominator (form specials roll no weapon proc, EV-0022). The isolated-window
+count (procs matched to a single candidate hit within 80 ms) is a censoring-biased
+lower bound, carried in the CSVs, never published as a rate.</p>
+
+<h3>Nine of the open (⏳) rows — observed here vs upstream's current values</h3>
+<table><thead><tr><th>Weapon</th><th>Observed PPM</th><th>Poisson 95%</th><th>Wearer bootstrap 95%</th>
+<th>Procs / hits</th><th>Payloads/hit</th><th>Wearers</th><th>Upstream measured value</th></tr></thead>
+<tbody><tr><td>Angerforge's Battle Axe</td><td>4.53</td><td>3.47–5.80</td><td>1 wearer</td><td>62/316</td><td>0.20</td><td>1</td><td>white 1.70 [1.41, 2.00] (298/4,035); specials 2.25 [</td></tr><tr><td>Boneslicer</td><td>3.65</td><td>1.47–7.52</td><td>1 wearer</td><td>7/46</td><td>0.15</td><td>1</td><td>2.78 [2.41, 3.38]. Recheck 11-19: white 3.02 [2.67, </td></tr><tr><td>Cobalt Crusher</td><td>1.48</td><td>1.04–2.04</td><td>1.39–1.53</td><td>37/1312</td><td>0.03</td><td>2</td><td>2.24 [1.88, 2.66]. Recheck 11-19: all hits 2.04 (Poi</td></tr><tr><td>Diabolic Skiver</td><td>2.25</td><td>1.75–2.84</td><td>1.86–2.88</td><td>70/1509</td><td>0.05</td><td>4</td><td>white 2.00 [1.64, 2.37] (160/1,654); specials 1.86 [</td></tr><tr><td>Grim Reaper</td><td>2.24</td><td>1.50–3.21</td><td>1 wearer</td><td>29/251</td><td>0.12</td><td>1</td><td>1.10 [0.97, 1.24]. Recheck 11-19: all hits 0.98 [0.8</td></tr><tr><td>Strike of the Hydra</td><td>3.35</td><td>2.41–4.53</td><td>1 wearer</td><td>42/228</td><td>0.18</td><td>1</td><td>2.23 [1.92, 2.64]. Recheck 11-19: all hits 2.12 [2.0</td></tr><tr><td>Twilight Maul</td><td>2.49</td><td>2.05–3.01</td><td>1.96–3.00</td><td>110/1216</td><td>0.09</td><td>3</td><td>1.74 [1.58, 1.96]. Recheck 11-19: white 1.67 [1.53, </td></tr><tr><td>Witchfury</td><td>1.29</td><td>0.67–2.26</td><td>1 wearer</td><td>12/199</td><td>0.06</td><td>1</td><td>1.02 [0.87, 1.16]. Recheck 11-19: all hits 1.05 (Poi</td></tr><tr><td>Shell Launcher Shotgun</td><td>1.53</td><td>0.04–8.55</td><td>1 wearer</td><td>1/17</td><td>0.06</td><td>1</td><td>all hits 3.70 [3.54, 3.85]</td></tr></tbody></table>
+<p class="note">Payloads/hit &gt; 0.5 flags likely secondary fire paths (the EV-0119 /
+EV-0151 corrections); flagged rows are shaded. At least 88 of the 505 reports also
+appear in the EV-0136/EV-0153 listings (17%), none on the same weapon row; this is a
+complementary druid-containing pass aimed at the form runs the sweep excludes, not an
+independent corpus.</p>
+
+<h3>Druid form strata — clustered onsets at the paw's speed (1.0 s cat, 2.5 s bear)</h3>
+<table><thead><tr><th>Weapon</th><th>Cat</th><th>Bear / Dire Bear</th>
+<th>PPM-vs-flat verdict (from attribution-confirmed procs)</th></tr></thead>
+<tbody><tr><td>Bigger Rock to the Face</td><td>41/7057 → 0.35 [0.25–0.47]</td><td>30/1823 → 0.39 [0.27–0.56]</td><td>PPM-consistent</td></tr><tr><td>Boneslicer</td><td>—</td><td>7/46 → 3.65 [1.47–7.52]</td><td></td></tr><tr><td>Cobalt Crusher</td><td>31/1188 → 1.57 [1.06–2.22]</td><td>6/123 → 1.17 [0.43–2.55]</td><td>indistinguishable</td></tr><tr><td>Diabolic Skiver</td><td>47/1268 → 2.22 [1.63–2.96]</td><td>23/241 → 2.29 [1.45–3.44]</td><td>PPM-consistent</td></tr><tr><td>Flame Wrath</td><td>62/2087 → 1.78 [1.37–2.29]</td><td>498/6193 → 1.93 [1.76–2.11]</td><td>PPM-consistent</td></tr><tr><td>Heart of Wyrmthalak</td><td>70/1683 → 2.50 [1.95–3.15]</td><td>286/721 → 9.52 [8.45–10.69]</td><td>PPM-consistent</td></tr><tr><td>Ironforge Greathammer</td><td>—</td><td>82/784 → 2.51 [2.00–3.12]</td><td></td></tr><tr><td>Loksey's Training Stick</td><td>55/1896 → 1.74 [1.31–2.27]</td><td>13/164 → 1.90 [1.01–3.25]</td><td>PPM-consistent</td></tr><tr><td>Reforged Spear</td><td>11/796 → 0.83 [0.41–1.48]</td><td>—</td><td></td></tr><tr><td>Rot-Covered Harpoon</td><td>0/544 → 0.00 [0.00–0.41]</td><td>—</td><td></td></tr><tr><td>The Chief's Enforcer</td><td>20/1234 → 0.97 [0.59–1.50]</td><td>24/486 → 1.19 [0.76–1.76]</td><td>PPM-consistent</td></tr><tr><td>Twilight Maul</td><td>19/440 → 2.59 [1.56–4.05]</td><td>36/443 → 1.95 [1.37–2.70]</td><td>PPM-consistent</td></tr></tbody></table>
+<p class="note">Equal cat/bear PPM at unequal paw speeds is the proc-per-minute
+signature; a flat per-swing chance would read 2.5× lower for cat. Every weapon row
+normalizes; the only flat-favored rows are the known chance-based procs (Fiery Blaze
+15% enchant, Mark of the Chosen 2%, Cursed Murloc Eye per-hit) — the test separates
+the two families cleanly. Heart of Wyrmthalak's bear stratum (0.47 payloads/hit) is
+quarantined by the screen.</p>
+
+<h3>Left out, and why</h3>
+<p class="note">Stoneslayer and Flame Wrath-style onsets include secondary fire paths
+(Flame Wrath's clustered form rates still land at EV-0151's corrected ~2.2–2.4, so its
+form rows are shown above with this note); per-cast payloads (Kindling Stave,
+Verigan's Fist, Warblade of Caer Darrow, Wolfsbane, Heartseeking Crossbow, Hurricane —
+30–300 by the row convention) are excluded; dual-wield rows stay unresolved on hand
+attribution. Strike of the Hydra: upstream's 2.12–2.23 stands; this corpus's 3.99
+reads high by the same white-only factor.</p>
+
+<h3>Wearer-class and screen flags</h3>
+<p class="note">EV-0153's owner ruling excludes paladin wearers from every rate: Angerforge's
+Battle Axe and Witchfury are worn by paladins here (identified by the review council from
+talent trees) and are shown for completeness only. Heart of Wyrmthalak's bear stratum
+(0.40 payloads/hit) and the Crusader / Fiery Weapon receipt rows (89&ndash;92% of their
+counts from fights with no counted denominator) are quarantined by the payloads-per-hit
+screen. Hasted cats (~15% of cat fights) swing faster than the 1.0 s base; base-speed
+pricing keeps the PPM model unbiased but actual procs-per-minute for those wearers reads
+~15% higher than the published base-speed figure.</p>
+
+<h3>Raw data and reproducibility</h3>
+<p class="note"><a href="raw/issue964-corpus-20261120-r21.json">Full receipt (r20)</a> ·
+<a href="raw/channel-census-153-spells.json">Channel census (153 spells)</a> ·
+<a href="raw/inventory-reconciliation.json">Inventory ledger</a> ·
+<a href="raw/form-normalization.json">Normalization verdicts (onset-based)</a> ·
+CSVs: <a href="open_rows.csv">open_rows</a>, <a href="form_strata.csv">form_strata</a>,
+<a href="per_report.csv">per_report</a>, <a href="measured_rows.csv">measured_rows</a>.
+The receipts regenerate from the page-verified ledger with one command on the machine
+holding the tier-2 page store; externally, re-fetch the named reports from Warcraft
+Logs and hash-compare against the receipt's per-report inventory. Multiple-comparison
+note: the intervals above are per-comparison 95%; across 26+ simultaneous rows the
+family-wise error is higher — treat tight CIs on few-wearer rows accordingly.</p>
+
 <script>
 document.querySelectorAll('table').forEach(t => {
   t.tHead?.querySelectorAll('th').forEach((th, i) => th.addEventListener('click', () => {
