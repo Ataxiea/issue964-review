@@ -1,0 +1,10 @@
+﻿Weapon,Item,Payload spell,Status upstream,Procs (row convention),Landed eligible hits,Speed-minutes,PPM,CI low,CI high,Isolated procs,Isolated rolls,Isolated PPM,Wearers,Reports
+Angerforge's Battle Axe,11816,1300783,open (hourglass),83,316,13.69,6.061,4.828,7.514,7,106,1.524,1,1
+Boneslicer,273819,1292573,open (hourglass),9,46,1.92,4.696,2.147,8.914,6,34,4.235,1,1
+Cobalt Crusher,7730,18204,open (hourglass),45,1312,24.98,1.802,1.314,2.411,7,937,,2,2
+Diabolic Skiver,9475,18206,open (hourglass),168,1509,31.18,5.389,4.605,6.268,48,1018,,4,5
+Grim Reaper,13054,14126,open (hourglass),70,251,12.97,5.398,4.208,6.82,13,190,1.324,1,1
+Strike of the Hydra,6909,1292657,open (hourglass),53,228,12.54,4.226,3.166,5.528,1,83,0.219,1,4
+Twilight Maul,273841,1292679,open (hourglass),228,1216,44.11,5.169,4.52,5.886,29,703,,3,4
+Witchfury,13051,18214,open (hourglass),55,199,9.29,5.922,4.462,7.709,2,52,0.824,1,2
+Shell Launcher Shotgun,13146,29647,open (hourglass),1,17,0.65,1.535,0.039,8.55,0,17,0.0,1,1
