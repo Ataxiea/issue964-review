@@ -1,0 +1,7555 @@
+{
+  "catalog": {
+    "name": "ppm_issue964_catalog.json",
+    "sha256": "46c6e78786fa6e97567803e3bca8ca4efb28988514fbdc4aa30d6632baf245fb"
+  },
+  "ledger": {
+    "path": "D:\\projects\\wowsims-forever\\artifacts\\wcl-feral-20261118\\inventory-reconciliation.json",
+    "sha256": "b6c2c24f8cf7cfb63e2568e3cd046735dfeb2e40f7535c4b82283637cd55f020"
+  },
+  "method": "Pass-through count of every event of each channel-unverified rule's effect spells across all streamed fights, wearers and non-wearers alike; tick rows counted apart and never qualifying a family. channel_family lists the unambiguous family a registration may use: damage-only, or buff gain only.",
+  "schema": "ppm-issue964-channel-census-v1",
+  "spells": {
+    "8191": {
+      "channel_family": null,
+      "fights": 8,
+      "kinds": {
+        "applybuff": 250,
+        "refreshbuff": 306,
+        "removebuff": 245
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "6c8P4BLaVAj3bpK7",
+          "tick": false,
+          "timestamp": 1931537,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6c8P4BLaVAj3bpK7",
+          "tick": false,
+          "timestamp": 1941181,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6c8P4BLaVAj3bpK7",
+          "tick": false,
+          "timestamp": 1956177,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6c8P4BLaVAj3bpK7",
+          "tick": false,
+          "timestamp": 1959303,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6c8P4BLaVAj3bpK7",
+          "tick": false,
+          "timestamp": 1959978,
+          "type": "refreshbuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "8313": {
+      "channel_family": null,
+      "fights": 12,
+      "kinds": {
+        "applydebuff": 160,
+        "damage": 32,
+        "refreshdebuff": 34,
+        "removedebuff": 160
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "3HcFtT14yKCGg2Mn",
+          "tick": false,
+          "timestamp": 12901489,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "3HcFtT14yKCGg2Mn",
+          "tick": true,
+          "timestamp": 12904491,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "3HcFtT14yKCGg2Mn",
+          "tick": false,
+          "timestamp": 12907408,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "3HcFtT14yKCGg2Mn",
+          "tick": false,
+          "timestamp": 12972773,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "3HcFtT14yKCGg2Mn",
+          "tick": true,
+          "timestamp": 12975776,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 264
+      },
+      "verified_channel": []
+    },
+    "8348": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applybuff": 19,
+        "refreshbuff": 2,
+        "removebuff": 19
+      },
+      "samples": [
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 20734701,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20736702,
+          "type": "heal"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20738708,
+          "type": "heal"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20740700,
+          "type": "heal"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20742709,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {
+        "heal": 124
+      },
+      "verified_channel": []
+    },
+    "9632": {
+      "channel_family": null,
+      "fights": 63,
+      "kinds": {
+        "applybuff": 1142,
+        "refreshbuff": 449,
+        "removebuff": 1135
+      },
+      "samples": [
+        {
+          "fight_id": 17,
+          "report_code": "1X6y9pjvfTLJrmwd",
+          "tick": false,
+          "timestamp": 4937125,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "1X6y9pjvfTLJrmwd",
+          "tick": false,
+          "timestamp": 4939049,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "1X6y9pjvfTLJrmwd",
+          "tick": false,
+          "timestamp": 4954717,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "1X6y9pjvfTLJrmwd",
+          "tick": false,
+          "timestamp": 4963716,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "1X6y9pjvfTLJrmwd",
+          "tick": false,
+          "timestamp": 4982748,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "9777": {
+      "channel_family": null,
+      "fights": 5,
+      "kinds": {
+        "heal": 68
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "4D3gfhkxKHVT6Pjw",
+          "tick": false,
+          "timestamp": 2105028,
+          "type": "heal"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "4D3gfhkxKHVT6Pjw",
+          "tick": false,
+          "timestamp": 2263175,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4D3gfhkxKHVT6Pjw",
+          "tick": false,
+          "timestamp": 175919,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4D3gfhkxKHVT6Pjw",
+          "tick": false,
+          "timestamp": 188727,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4D3gfhkxKHVT6Pjw",
+          "tick": false,
+          "timestamp": 193953,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "9806": {
+      "channel_family": null,
+      "fights": 7,
+      "kinds": {
+        "applydebuff": 45,
+        "damage": 7,
+        "refreshdebuff": 16,
+        "removedebuff": 45
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "pLtJjx8DCPbHRacv",
+          "tick": false,
+          "timestamp": 4619310,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "pLtJjx8DCPbHRacv",
+          "tick": false,
+          "timestamp": 4628735,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 9,
+          "report_code": "pLtJjx8DCPbHRacv",
+          "tick": false,
+          "timestamp": 4956549,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 9,
+          "report_code": "pLtJjx8DCPbHRacv",
+          "tick": false,
+          "timestamp": 4967321,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "pLtJjx8DCPbHRacv",
+          "tick": false,
+          "timestamp": 4465733,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "10351": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applybuff": 18,
+        "refreshbuff": 7,
+        "removebuff": 18
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "hYHBQ9ZJX3vFAnkj",
+          "tick": false,
+          "timestamp": 3208911,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "hYHBQ9ZJX3vFAnkj",
+          "tick": false,
+          "timestamp": 3210561,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "hYHBQ9ZJX3vFAnkj",
+          "tick": false,
+          "timestamp": 3213392,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "hYHBQ9ZJX3vFAnkj",
+          "tick": false,
+          "timestamp": 3218392,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "hYHBQ9ZJX3vFAnkj",
+          "tick": false,
+          "timestamp": 3304506,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "11657": {
+      "channel_family": null,
+      "fights": 17,
+      "kinds": {
+        "absorbed": 96,
+        "applybuff": 73,
+        "refreshbuff": 11,
+        "removebuff": 71
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "4fjBcGt83Rzv1hNb",
+          "tick": false,
+          "timestamp": 1733435,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4fjBcGt83Rzv1hNb",
+          "tick": false,
+          "timestamp": 1736447,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4fjBcGt83Rzv1hNb",
+          "tick": false,
+          "timestamp": 1737196,
+          "type": "absorbed"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4fjBcGt83Rzv1hNb",
+          "tick": false,
+          "timestamp": 1738998,
+          "type": "absorbed"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4fjBcGt83Rzv1hNb",
+          "tick": false,
+          "timestamp": 1738998,
+          "type": "removebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "11790": {
+      "channel_family": null,
+      "fights": 16,
+      "kinds": {
+        "applydebuff": 595,
+        "damage": 66,
+        "refreshdebuff": 191,
+        "removedebuff": 590
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 1243577,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": true,
+          "timestamp": 1246531,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": true,
+          "timestamp": 1249520,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": true,
+          "timestamp": 1252551,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": true,
+          "timestamp": 1255551,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1827
+      },
+      "verified_channel": []
+    },
+    "12731": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 38,
+      "kinds": {
+        "damage": 1806
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "1RBjZLNxdMknWGfJ",
+          "tick": false,
+          "timestamp": 2573638,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1RBjZLNxdMknWGfJ",
+          "tick": false,
+          "timestamp": 2590188,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1RBjZLNxdMknWGfJ",
+          "tick": false,
+          "timestamp": 2597532,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1RBjZLNxdMknWGfJ",
+          "tick": false,
+          "timestamp": 2600534,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1RBjZLNxdMknWGfJ",
+          "tick": false,
+          "timestamp": 2604517,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13049": {
+      "channel_family": null,
+      "fights": 5,
+      "kinds": {
+        "summon": 5
+      },
+      "samples": [
+        {
+          "fight_id": 211,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 80078653,
+          "type": "summon"
+        },
+        {
+          "fight_id": 212,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 80151249,
+          "type": "summon"
+        },
+        {
+          "fight_id": 214,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 80230960,
+          "type": "summon"
+        },
+        {
+          "fight_id": 253,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 82800557,
+          "type": "summon"
+        },
+        {
+          "fight_id": 254,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 82859310,
+          "type": "summon"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13318": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 7,
+        "refreshdebuff": 2,
+        "removedebuff": 7
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "3vDf6TMYBX9LK7bz",
+          "tick": false,
+          "timestamp": 184191,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "3vDf6TMYBX9LK7bz",
+          "tick": true,
+          "timestamp": 187224,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "3vDf6TMYBX9LK7bz",
+          "tick": true,
+          "timestamp": 190207,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "3vDf6TMYBX9LK7bz",
+          "tick": true,
+          "timestamp": 193190,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "3vDf6TMYBX9LK7bz",
+          "tick": true,
+          "timestamp": 196191,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 21
+      },
+      "verified_channel": []
+    },
+    "13439": {
+      "channel_family": null,
+      "fights": 17,
+      "kinds": {
+        "applydebuff": 295,
+        "damage": 641,
+        "refreshdebuff": 152,
+        "removedebuff": 294
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9585897,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9595015,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9598714,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9610664,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9611486,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13480": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 1,
+      "kinds": {
+        "damage": 6
+      },
+      "samples": [
+        {
+          "fight_id": 291,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 114747909,
+          "type": "damage"
+        },
+        {
+          "fight_id": 291,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 114770922,
+          "type": "damage"
+        },
+        {
+          "fight_id": 291,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 114802359,
+          "type": "damage"
+        },
+        {
+          "fight_id": 291,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 114816827,
+          "type": "damage"
+        },
+        {
+          "fight_id": 291,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 114829191,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13482": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 3,
+      "kinds": {
+        "damage": 102
+      },
+      "samples": [
+        {
+          "fight_id": 10,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 4037669,
+          "type": "damage"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 4040516,
+          "type": "damage"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 4078845,
+          "type": "damage"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 4106490,
+          "type": "damage"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 4135587,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13496": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 5,
+        "refreshdebuff": 1,
+        "removedebuff": 5
+      },
+      "samples": [
+        {
+          "fight_id": 6,
+          "report_code": "mDbPCdX9AvwYJxGa",
+          "tick": false,
+          "timestamp": 4960684,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "mDbPCdX9AvwYJxGa",
+          "tick": false,
+          "timestamp": 4964119,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "mDbPCdX9AvwYJxGa",
+          "tick": false,
+          "timestamp": 4965362,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "mDbPCdX9AvwYJxGa",
+          "tick": false,
+          "timestamp": 4988638,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "mDbPCdX9AvwYJxGa",
+          "tick": false,
+          "timestamp": 4998638,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13524": {
+      "channel_family": null,
+      "fights": 32,
+      "kinds": {
+        "applydebuff": 287,
+        "damage": 4,
+        "refreshdebuff": 131,
+        "removedebuff": 288
+      },
+      "samples": [
+        {
+          "fight_id": 11,
+          "report_code": "A9bpD6tXZvmyMrn3",
+          "tick": false,
+          "timestamp": 11152677,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 11,
+          "report_code": "A9bpD6tXZvmyMrn3",
+          "tick": false,
+          "timestamp": 11153259,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 11,
+          "report_code": "A9bpD6tXZvmyMrn3",
+          "tick": false,
+          "timestamp": 11160594,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 11,
+          "report_code": "A9bpD6tXZvmyMrn3",
+          "tick": false,
+          "timestamp": 11166647,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 11,
+          "report_code": "A9bpD6tXZvmyMrn3",
+          "tick": false,
+          "timestamp": 11171064,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13527": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 1,
+      "kinds": {
+        "damage": 10
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "1maRGV8JQgYLdPrX",
+          "tick": false,
+          "timestamp": 7509658,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1maRGV8JQgYLdPrX",
+          "tick": false,
+          "timestamp": 7512019,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1maRGV8JQgYLdPrX",
+          "tick": false,
+          "timestamp": 7521723,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1maRGV8JQgYLdPrX",
+          "tick": false,
+          "timestamp": 7598523,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1maRGV8JQgYLdPrX",
+          "tick": false,
+          "timestamp": 7608180,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13528": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 1,
+        "refreshdebuff": 2
+      },
+      "samples": [
+        {
+          "fight_id": 187,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 87390869,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 187,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 87393857,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 187,
+          "report_code": "xwC79cfRXtNagdnL",
+          "tick": false,
+          "timestamp": 87397530,
+          "type": "refreshdebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13530": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 1,
+        "damage": 2,
+        "removedebuff": 1
+      },
+      "samples": [
+        {
+          "fight_id": 137,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25570853,
+          "type": "damage"
+        },
+        {
+          "fight_id": 141,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25896096,
+          "type": "damage"
+        },
+        {
+          "fight_id": 141,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25907570,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 141,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": true,
+          "timestamp": 25908610,
+          "type": "damage"
+        },
+        {
+          "fight_id": 141,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25909067,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1
+      },
+      "verified_channel": []
+    },
+    "13532": {
+      "channel_family": null,
+      "fights": 115,
+      "kinds": {
+        "applydebuff": 2842,
+        "damage": 6387,
+        "refreshdebuff": 1740,
+        "removedebuff": 2838
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 5595290,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 5595290,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 5595290,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 5595290,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 5610613,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13534": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "cast": 1,
+        "damage": 1
+      },
+      "samples": [
+        {
+          "fight_id": 357,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 98010202,
+          "type": "cast"
+        },
+        {
+          "fight_id": 357,
+          "report_code": "zctYVp8xTBkFy4hq",
+          "tick": false,
+          "timestamp": 98010202,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "13752": {
+      "channel_family": null,
+      "fights": 28,
+      "kinds": {
+        "applydebuff": 56,
+        "damage": 4,
+        "refreshdebuff": 29,
+        "removedebuff": 56
+      },
+      "samples": [
+        {
+          "fight_id": 210,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 32555635,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 210,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 32560273,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 210,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 32566203,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 210,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 32570102,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 210,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 32572352,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "14106": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 5,
+      "kinds": {
+        "damage": 81
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "4ARKtCTVhrgBwadG",
+          "tick": false,
+          "timestamp": 2275259,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4ARKtCTVhrgBwadG",
+          "tick": false,
+          "timestamp": 2331264,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4ARKtCTVhrgBwadG",
+          "tick": false,
+          "timestamp": 2336912,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "4ARKtCTVhrgBwadG",
+          "tick": false,
+          "timestamp": 106330,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "4ARKtCTVhrgBwadG",
+          "tick": false,
+          "timestamp": 150858,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "14118": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 2,
+        "refreshdebuff": 1,
+        "removedebuff": 1
+      },
+      "samples": [
+        {
+          "fight_id": 49,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": false,
+          "timestamp": 18807089,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 49,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": false,
+          "timestamp": 18807089,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 49,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": true,
+          "timestamp": 18807315,
+          "type": "damage"
+        },
+        {
+          "fight_id": 49,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": true,
+          "timestamp": 18807551,
+          "type": "damage"
+        },
+        {
+          "fight_id": 49,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": false,
+          "timestamp": 18808046,
+          "type": "refreshdebuff"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 4
+      },
+      "verified_channel": []
+    },
+    "14126": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 5,
+      "kinds": {
+        "damage": 96
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6DJfd2yhL8ZNpkXv",
+          "tick": false,
+          "timestamp": 308483,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6DJfd2yhL8ZNpkXv",
+          "tick": false,
+          "timestamp": 466576,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6DJfd2yhL8ZNpkXv",
+          "tick": false,
+          "timestamp": 640065,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6DJfd2yhL8ZNpkXv",
+          "tick": false,
+          "timestamp": 731511,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6DJfd2yhL8ZNpkXv",
+          "tick": false,
+          "timestamp": 936621,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "15602": {
+      "channel_family": null,
+      "fights": 29,
+      "kinds": {
+        "applybuff": 929,
+        "refreshbuff": 684,
+        "removebuff": 917
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 6222740,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 9734055,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 9743649,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 9747120,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 9757125,
+          "type": "removebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16400": {
+      "channel_family": null,
+      "fights": 15,
+      "kinds": {
+        "applydebuff": 35,
+        "damage": 24,
+        "refreshdebuff": 11,
+        "removedebuff": 34
+      },
+      "samples": [
+        {
+          "fight_id": 86,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 20771873,
+          "type": "damage"
+        },
+        {
+          "fight_id": 86,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 20780204,
+          "type": "damage"
+        },
+        {
+          "fight_id": 86,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 20785333,
+          "type": "damage"
+        },
+        {
+          "fight_id": 88,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 20860122,
+          "type": "damage"
+        },
+        {
+          "fight_id": 89,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 20916990,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 78
+      },
+      "verified_channel": []
+    },
+    "16403": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 25,
+        "damage": 18,
+        "refreshdebuff": 5,
+        "removedebuff": 25
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "8CzXwbPMaHVvY1Ng",
+          "tick": false,
+          "timestamp": 3283096,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "8CzXwbPMaHVvY1Ng",
+          "tick": true,
+          "timestamp": 3289083,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "8CzXwbPMaHVvY1Ng",
+          "tick": false,
+          "timestamp": 3291433,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "8CzXwbPMaHVvY1Ng",
+          "tick": false,
+          "timestamp": 3309950,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "8CzXwbPMaHVvY1Ng",
+          "tick": true,
+          "timestamp": 3315958,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 30
+      },
+      "verified_channel": []
+    },
+    "16405": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 3,
+      "kinds": {
+        "damage": 72
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 15290044,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 12274559,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 12381821,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 12539652,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 12626043,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16408": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 7,
+      "kinds": {
+        "damage": 292
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6QAkmnrzahgY9Cv2",
+          "tick": false,
+          "timestamp": 2295088,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6QAkmnrzahgY9Cv2",
+          "tick": false,
+          "timestamp": 2329067,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6QAkmnrzahgY9Cv2",
+          "tick": false,
+          "timestamp": 2330873,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "Q6AVZFfm814PXCbc",
+          "tick": false,
+          "timestamp": 17839917,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "hMdFnHqgVRDTyKPY",
+          "tick": false,
+          "timestamp": 612658,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16409": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 4,
+      "kinds": {
+        "damage": 16
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "7NMHDaR1AF6Lkg93",
+          "tick": false,
+          "timestamp": 12291000,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "WLN37gKYpGVXy4aq",
+          "tick": false,
+          "timestamp": 16134865,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "WLN37gKYpGVXy4aq",
+          "tick": false,
+          "timestamp": 16868994,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "WLN37gKYpGVXy4aq",
+          "tick": false,
+          "timestamp": 16898533,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "WLN37gKYpGVXy4aq",
+          "tick": false,
+          "timestamp": 17123701,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16413": {
+      "channel_family": null,
+      "fights": 10,
+      "kinds": {
+        "applydebuff": 348,
+        "damage": 445,
+        "refreshdebuff": 52,
+        "removedebuff": 348
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 609337,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 609337,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": true,
+          "timestamp": 610342,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": true,
+          "timestamp": 611337,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": true,
+          "timestamp": 612339,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1789
+      },
+      "verified_channel": []
+    },
+    "16414": {
+      "channel_family": null,
+      "fights": 8,
+      "kinds": {
+        "damage": 1299,
+        "heal": 1291
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6143900,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6143910,
+          "type": "heal"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6155078,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6155078,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6155088,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16415": {
+      "channel_family": null,
+      "fights": 6,
+      "kinds": {
+        "applydebuff": 103,
+        "damage": 135,
+        "refreshdebuff": 25,
+        "removedebuff": 103
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9646124,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9646124,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 9648133,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 9650133,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 9652141,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 258
+      },
+      "verified_channel": []
+    },
+    "16454": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 26,
+        "damage": 32,
+        "refreshdebuff": 4,
+        "removedebuff": 26
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "RXPaYhrcHBQfv6m4",
+          "tick": false,
+          "timestamp": 282211,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "RXPaYhrcHBQfv6m4",
+          "tick": false,
+          "timestamp": 282211,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "RXPaYhrcHBQfv6m4",
+          "tick": false,
+          "timestamp": 284840,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "RXPaYhrcHBQfv6m4",
+          "tick": false,
+          "timestamp": 442272,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "RXPaYhrcHBQfv6m4",
+          "tick": false,
+          "timestamp": 477148,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16528": {
+      "channel_family": null,
+      "fights": 20,
+      "kinds": {
+        "applydebuff": 314,
+        "damage": 46,
+        "refreshdebuff": 81,
+        "removedebuff": 313
+      },
+      "samples": [
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 9761172,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9762180,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9763179,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9764177,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9765176,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 2227
+      },
+      "verified_channel": []
+    },
+    "16549": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 10,
+      "kinds": {
+        "damage": 214
+      },
+      "samples": [
+        {
+          "fight_id": 20,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25879913,
+          "type": "damage"
+        },
+        {
+          "fight_id": 20,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25889249,
+          "type": "damage"
+        },
+        {
+          "fight_id": 20,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25889249,
+          "type": "damage"
+        },
+        {
+          "fight_id": 20,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25901362,
+          "type": "damage"
+        },
+        {
+          "fight_id": 25,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 26234381,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16551": {
+      "channel_family": null,
+      "fights": 42,
+      "kinds": {
+        "applybuff": 301,
+        "refreshbuff": 8,
+        "removebuff": 299
+      },
+      "samples": [
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 27415028,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 27418037,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 27537187,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 27540183,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "7tbWfYqJFd4vzL3p",
+          "tick": false,
+          "timestamp": 166292,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16559": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 287,
+      "kinds": {
+        "damage": 12676
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9596101,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9616945,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9624598,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9636714,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9641188,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16602": {
+      "channel_family": null,
+      "fights": 8,
+      "kinds": {
+        "summon": 194
+      },
+      "samples": [
+        {
+          "fight_id": 13,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 24082648,
+          "type": "summon"
+        },
+        {
+          "fight_id": 13,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 24085696,
+          "type": "summon"
+        },
+        {
+          "fight_id": 13,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 24113057,
+          "type": "summon"
+        },
+        {
+          "fight_id": 13,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 24117458,
+          "type": "summon"
+        },
+        {
+          "fight_id": 13,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 24119282,
+          "type": "summon"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "16603": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 75,
+        "heal": 233,
+        "refreshdebuff": 27,
+        "removedebuff": 75
+      },
+      "samples": [
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 24808314,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": true,
+          "timestamp": 24809318,
+          "type": "damage"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 24809318,
+          "type": "heal"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": true,
+          "timestamp": 24810319,
+          "type": "damage"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 24810320,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 233
+      },
+      "verified_channel": []
+    },
+    "17148": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 19,
+        "damage": 38,
+        "refreshdebuff": 10,
+        "removedebuff": 19
+      },
+      "samples": [
+        {
+          "fight_id": 17,
+          "report_code": "p4fMBXZaJz8ctTP6",
+          "tick": false,
+          "timestamp": 9530094,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "p4fMBXZaJz8ctTP6",
+          "tick": false,
+          "timestamp": 9530094,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "p4fMBXZaJz8ctTP6",
+          "tick": false,
+          "timestamp": 9535563,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "p4fMBXZaJz8ctTP6",
+          "tick": false,
+          "timestamp": 9535563,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "p4fMBXZaJz8ctTP6",
+          "tick": false,
+          "timestamp": 9538878,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17152": {
+      "channel_family": null,
+      "fights": 3,
+      "kinds": {
+        "applybuff": 81,
+        "refreshbuff": 44,
+        "removebuff": 78
+      },
+      "samples": [
+        {
+          "fight_id": 9,
+          "report_code": "ZKphvLAPfVxNCX6z",
+          "tick": false,
+          "timestamp": 6123240,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 9,
+          "report_code": "ZKphvLAPfVxNCX6z",
+          "tick": false,
+          "timestamp": 6126369,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 9,
+          "report_code": "ZKphvLAPfVxNCX6z",
+          "tick": false,
+          "timestamp": 6138377,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 9,
+          "report_code": "ZKphvLAPfVxNCX6z",
+          "tick": false,
+          "timestamp": 6138573,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 9,
+          "report_code": "ZKphvLAPfVxNCX6z",
+          "tick": false,
+          "timestamp": 6150583,
+          "type": "removebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17154": {
+      "channel_family": null,
+      "fights": 4,
+      "kinds": {
+        "applybuff": 29,
+        "damage": 544,
+        "refreshbuff": 4,
+        "removebuff": 28
+      },
+      "samples": [
+        {
+          "fight_id": 8,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11555747,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11555754,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11557770,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11559160,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11559768,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17196": {
+      "channel_family": null,
+      "fights": 24,
+      "kinds": {
+        "applydebuff": 620,
+        "damage": 3,
+        "refreshdebuff": 129,
+        "removedebuff": 619
+      },
+      "samples": [
+        {
+          "fight_id": 6,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2888816,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2888816,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2888816,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2888816,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2888816,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 2304
+      },
+      "verified_channel": []
+    },
+    "17315": {
+      "channel_family": null,
+      "fights": 16,
+      "kinds": {
+        "applydebuff": 645,
+        "applydebuffstack": 279,
+        "damage": 45,
+        "refreshdebuff": 102,
+        "removedebuff": 643
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "6xnwM2qCN43Tv8Af",
+          "tick": false,
+          "timestamp": 1903255,
+          "type": "applydebuffstack"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6xnwM2qCN43Tv8Af",
+          "tick": false,
+          "timestamp": 1906938,
+          "type": "applydebuffstack"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6xnwM2qCN43Tv8Af",
+          "tick": false,
+          "timestamp": 1906938,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6xnwM2qCN43Tv8Af",
+          "tick": false,
+          "timestamp": 1913171,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "6xnwM2qCN43Tv8Af",
+          "tick": false,
+          "timestamp": 1918871,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17331": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 1,
+        "removedebuff": 1
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "Nxtj7m6zcFX9Aq3Z",
+          "tick": false,
+          "timestamp": 3959509,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "Nxtj7m6zcFX9Aq3Z",
+          "tick": false,
+          "timestamp": 3969520,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17351": {
+      "channel_family": null,
+      "fights": 11,
+      "kinds": {
+        "applybuff": 91,
+        "removebuff": 91
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1a3Qn7JpLk8AH2hV",
+          "tick": false,
+          "timestamp": 24745,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1a3Qn7JpLk8AH2hV",
+          "tick": false,
+          "timestamp": 34732,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1a3Qn7JpLk8AH2hV",
+          "tick": false,
+          "timestamp": 61285,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1a3Qn7JpLk8AH2hV",
+          "tick": false,
+          "timestamp": 71283,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1a3Qn7JpLk8AH2hV",
+          "tick": false,
+          "timestamp": 152687,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17352": {
+      "channel_family": null,
+      "fights": 49,
+      "kinds": {
+        "applybuff": 701,
+        "refreshbuff": 198,
+        "removebuff": 688
+      },
+      "samples": [
+        {
+          "fight_id": 14,
+          "report_code": "8FBqfvLyWTdKxbZh",
+          "tick": false,
+          "timestamp": 13066494,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "8FBqfvLyWTdKxbZh",
+          "tick": false,
+          "timestamp": 13076486,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "8FBqfvLyWTdKxbZh",
+          "tick": false,
+          "timestamp": 13084684,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 19,
+          "report_code": "8FBqfvLyWTdKxbZh",
+          "tick": false,
+          "timestamp": 13511013,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 19,
+          "report_code": "8FBqfvLyWTdKxbZh",
+          "tick": false,
+          "timestamp": 13514201,
+          "type": "refreshbuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17407": {
+      "channel_family": null,
+      "fights": 7,
+      "kinds": {
+        "applydebuff": 96,
+        "damage": 168,
+        "refreshdebuff": 62,
+        "removedebuff": 93
+      },
+      "samples": [
+        {
+          "fight_id": 26,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 111392417,
+          "type": "damage"
+        },
+        {
+          "fight_id": 26,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 111392417,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 26,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": true,
+          "timestamp": 111393420,
+          "type": "damage"
+        },
+        {
+          "fight_id": 26,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": true,
+          "timestamp": 111394411,
+          "type": "damage"
+        },
+        {
+          "fight_id": 26,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": true,
+          "timestamp": 111395422,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 670
+      },
+      "verified_channel": []
+    },
+    "17483": {
+      "channel_family": null,
+      "fights": 40,
+      "kinds": {
+        "applydebuff": 766,
+        "damage": 1066,
+        "refreshdebuff": 288,
+        "removedebuff": 760
+      },
+      "samples": [
+        {
+          "fight_id": 8,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 19300739,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 19300739,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 19301087,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 19308278,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 19308278,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1646
+      },
+      "verified_channel": []
+    },
+    "17496": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 79,
+      "kinds": {
+        "damage": 10163
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2533577,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "2wFyAGLf1CqZKnaz",
+          "tick": false,
+          "timestamp": 2535986,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "63pnYPtNJk1X7HFB",
+          "tick": false,
+          "timestamp": 6334495,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "63pnYPtNJk1X7HFB",
+          "tick": false,
+          "timestamp": 6337148,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "63pnYPtNJk1X7HFB",
+          "tick": false,
+          "timestamp": 6345843,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17504": {
+      "channel_family": null,
+      "fights": 12,
+      "kinds": {
+        "applydebuff": 69,
+        "damage": 16,
+        "refreshdebuff": 9,
+        "removedebuff": 69
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "WyJ3AmPVpKRqnbhv",
+          "tick": false,
+          "timestamp": 117311,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "WyJ3AmPVpKRqnbhv",
+          "tick": false,
+          "timestamp": 117328,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "WyJ3AmPVpKRqnbhv",
+          "tick": false,
+          "timestamp": 152943,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "WyJ3AmPVpKRqnbhv",
+          "tick": true,
+          "timestamp": 155944,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "WyJ3AmPVpKRqnbhv",
+          "tick": true,
+          "timestamp": 158950,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 152
+      },
+      "verified_channel": []
+    },
+    "17505": {
+      "channel_family": null,
+      "fights": 4,
+      "kinds": {
+        "damage": 181,
+        "heal": 174
+      },
+      "samples": [
+        {
+          "fight_id": 18,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 96718682,
+          "type": "damage"
+        },
+        {
+          "fight_id": 18,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 96718693,
+          "type": "heal"
+        },
+        {
+          "fight_id": 18,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 96726580,
+          "type": "damage"
+        },
+        {
+          "fight_id": 18,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 96726590,
+          "type": "heal"
+        },
+        {
+          "fight_id": 18,
+          "report_code": "aWLTAv36Kx9HVPkY",
+          "tick": false,
+          "timestamp": 96781991,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "17511": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {},
+      "samples": [
+        {
+          "fight_id": 20,
+          "report_code": "j1xyYV7gcMH69ND8",
+          "tick": true,
+          "timestamp": 6026466,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1
+      },
+      "verified_channel": []
+    },
+    "18075": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 27,
+        "damage": 9,
+        "refreshdebuff": 5,
+        "removedebuff": 27
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 281843,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": true,
+          "timestamp": 282843,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": true,
+          "timestamp": 283844,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": true,
+          "timestamp": 284845,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": true,
+          "timestamp": 285846,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 159
+      },
+      "verified_channel": []
+    },
+    "18083": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 22,
+      "kinds": {
+        "damage": 183
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 404711,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 441054,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1388434,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1526125,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1680234,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18084": {
+      "channel_family": null,
+      "fights": 7,
+      "kinds": {
+        "damage": 239,
+        "heal": 240
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "4rfgMCY9qjyvQhHD",
+          "tick": false,
+          "timestamp": 238259,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4rfgMCY9qjyvQhHD",
+          "tick": false,
+          "timestamp": 238259,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4rfgMCY9qjyvQhHD",
+          "tick": false,
+          "timestamp": 240155,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4rfgMCY9qjyvQhHD",
+          "tick": false,
+          "timestamp": 240169,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4rfgMCY9qjyvQhHD",
+          "tick": false,
+          "timestamp": 250194,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18088": {
+      "channel_family": null,
+      "fights": 6,
+      "kinds": {
+        "applydebuff": 124,
+        "damage": 3,
+        "refreshdebuff": 15,
+        "removedebuff": 124
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "34gy17FXnaGhVC2M",
+          "tick": false,
+          "timestamp": 19752484,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "34gy17FXnaGhVC2M",
+          "tick": true,
+          "timestamp": 19753490,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "34gy17FXnaGhVC2M",
+          "tick": true,
+          "timestamp": 19754484,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "34gy17FXnaGhVC2M",
+          "tick": true,
+          "timestamp": 19755493,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "34gy17FXnaGhVC2M",
+          "tick": false,
+          "timestamp": 19755493,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 343
+      },
+      "verified_channel": []
+    },
+    "18089": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 2,
+      "kinds": {
+        "damage": 45
+      },
+      "samples": [
+        {
+          "fight_id": 22,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 2076117,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6131701,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6133275,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6136422,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 6160887,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18091": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 1,
+      "kinds": {
+        "damage": 3
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6z9hqHARQr3vwLXd",
+          "tick": false,
+          "timestamp": 230169,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6z9hqHARQr3vwLXd",
+          "tick": false,
+          "timestamp": 312089,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6z9hqHARQr3vwLXd",
+          "tick": false,
+          "timestamp": 796458,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18104": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 31,
+      "kinds": {
+        "damage": 408
+      },
+      "samples": [
+        {
+          "fight_id": 17,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 1901491,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 1906328,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 1913013,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "pFH4amZPxkBhyTtV",
+          "tick": false,
+          "timestamp": 1535421,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "pFH4amZPxkBhyTtV",
+          "tick": false,
+          "timestamp": 1541489,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18107": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 18,
+      "kinds": {
+        "damage": 28
+      },
+      "samples": [
+        {
+          "fight_id": 218,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 33460461,
+          "type": "damage"
+        },
+        {
+          "fight_id": 221,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 33642000,
+          "type": "damage"
+        },
+        {
+          "fight_id": 222,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 33679577,
+          "type": "damage"
+        },
+        {
+          "fight_id": 222,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 33681997,
+          "type": "damage"
+        },
+        {
+          "fight_id": 222,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 33688388,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18138": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 23,
+      "kinds": {
+        "damage": 319
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 1094187,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 198070,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 211056,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 275624,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 449276,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18202": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 11,
+        "removedebuff": 11
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "27GAf6bKFMyt9Raq",
+          "tick": false,
+          "timestamp": 184651,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "27GAf6bKFMyt9Raq",
+          "tick": true,
+          "timestamp": 186660,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "27GAf6bKFMyt9Raq",
+          "tick": false,
+          "timestamp": 187277,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "27GAf6bKFMyt9Raq",
+          "tick": false,
+          "timestamp": 327541,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "27GAf6bKFMyt9Raq",
+          "tick": true,
+          "timestamp": 329541,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 27
+      },
+      "verified_channel": []
+    },
+    "18206": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 26,
+      "kinds": {
+        "damage": 381
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9601910,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9641174,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1nTQBK4hmcaLbFZV",
+          "tick": false,
+          "timestamp": 2090981,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1nTQBK4hmcaLbFZV",
+          "tick": false,
+          "timestamp": 2168220,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1nTQBK4hmcaLbFZV",
+          "tick": false,
+          "timestamp": 2254666,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18208": {
+      "channel_family": null,
+      "fights": 4,
+      "kinds": {
+        "applydebuff": 39,
+        "damage": 4,
+        "refreshdebuff": 7,
+        "removedebuff": 39
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "7vxRAKHWC83tgPDz",
+          "tick": false,
+          "timestamp": 1335201,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "7vxRAKHWC83tgPDz",
+          "tick": true,
+          "timestamp": 1340205,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "7vxRAKHWC83tgPDz",
+          "tick": false,
+          "timestamp": 1344557,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "7vxRAKHWC83tgPDz",
+          "tick": false,
+          "timestamp": 1651924,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "7vxRAKHWC83tgPDz",
+          "tick": true,
+          "timestamp": 1656912,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 127
+      },
+      "verified_channel": []
+    },
+    "18211": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 6,
+      "kinds": {
+        "damage": 164
+      },
+      "samples": [
+        {
+          "fight_id": 8,
+          "report_code": "cb9gzXjCK3BfH7qM",
+          "tick": false,
+          "timestamp": 10067492,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "cb9gzXjCK3BfH7qM",
+          "tick": false,
+          "timestamp": 10084316,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "cb9gzXjCK3BfH7qM",
+          "tick": false,
+          "timestamp": 10335061,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "cb9gzXjCK3BfH7qM",
+          "tick": false,
+          "timestamp": 10346251,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "cb9gzXjCK3BfH7qM",
+          "tick": false,
+          "timestamp": 10438036,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18214": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 10,
+      "kinds": {
+        "damage": 182
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6439065,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6582132,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6591464,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 323166,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 325961,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18276": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 1,
+      "kinds": {
+        "damage": 83
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 61279,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 107768,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 119939,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 147507,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 240718,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18381": {
+      "channel_family": null,
+      "fights": 9,
+      "kinds": {
+        "applydebuff": 175,
+        "refreshdebuff": 62,
+        "removedebuff": 174
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6xqRBhrJf8FVXYGb",
+          "tick": false,
+          "timestamp": 319171,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6xqRBhrJf8FVXYGb",
+          "tick": false,
+          "timestamp": 321522,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6xqRBhrJf8FVXYGb",
+          "tick": false,
+          "timestamp": 374187,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6xqRBhrJf8FVXYGb",
+          "tick": false,
+          "timestamp": 377191,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6xqRBhrJf8FVXYGb",
+          "tick": false,
+          "timestamp": 417290,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18652": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 1,
+        "removedebuff": 1
+      },
+      "samples": [
+        {
+          "fight_id": 6,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 9493487,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9494507,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9495491,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9496494,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": true,
+          "timestamp": 9497503,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 5
+      },
+      "verified_channel": []
+    },
+    "18796": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 35,
+        "damage": 40,
+        "refreshdebuff": 3,
+        "removedebuff": 35
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "rTLVqFpfa9GJQgHh",
+          "tick": false,
+          "timestamp": 51252,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "rTLVqFpfa9GJQgHh",
+          "tick": false,
+          "timestamp": 51253,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "rTLVqFpfa9GJQgHh",
+          "tick": true,
+          "timestamp": 53252,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "rTLVqFpfa9GJQgHh",
+          "tick": true,
+          "timestamp": 55246,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "rTLVqFpfa9GJQgHh",
+          "tick": true,
+          "timestamp": 57255,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 69
+      },
+      "verified_channel": []
+    },
+    "18798": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applydebuff": 1,
+        "damage": 1,
+        "removedebuff": 1
+      },
+      "samples": [
+        {
+          "fight_id": 39,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": false,
+          "timestamp": 16173185,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 39,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": false,
+          "timestamp": 16173185,
+          "type": "damage"
+        },
+        {
+          "fight_id": 39,
+          "report_code": "FN8krKfCb3BXWmwV",
+          "tick": false,
+          "timestamp": 16177019,
+          "type": "removedebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18803": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "applybuff": 2,
+        "removebuff": 2
+      },
+      "samples": [
+        {
+          "fight_id": 23,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 2141171,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 23,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 2141523,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 23,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 2144006,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 23,
+          "report_code": "6jKThgnYda3NW1p2",
+          "tick": false,
+          "timestamp": 2144557,
+          "type": "removebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18817": {
+      "channel_family": null,
+      "fights": 27,
+      "kinds": {
+        "damage": 457,
+        "heal": 456
+      },
+      "samples": [
+        {
+          "fight_id": 6,
+          "report_code": "4y6Qnzkw7GHKcVDb",
+          "tick": false,
+          "timestamp": 5897748,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "4y6Qnzkw7GHKcVDb",
+          "tick": false,
+          "timestamp": 5897759,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4y6Qnzkw7GHKcVDb",
+          "tick": false,
+          "timestamp": 480512,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4y6Qnzkw7GHKcVDb",
+          "tick": false,
+          "timestamp": 480524,
+          "type": "heal"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4y6Qnzkw7GHKcVDb",
+          "tick": false,
+          "timestamp": 564956,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "18828": {
+      "channel_family": null,
+      "fights": 9,
+      "kinds": {
+        "applybuff": 164,
+        "refreshbuff": 87,
+        "removebuff": 163
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "DyQF87Cj6RMnAcHY",
+          "tick": false,
+          "timestamp": 1456278,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "DyQF87Cj6RMnAcHY",
+          "tick": false,
+          "timestamp": 1476285,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "DyQF87Cj6RMnAcHY",
+          "tick": false,
+          "timestamp": 1710301,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "DyQF87Cj6RMnAcHY",
+          "tick": false,
+          "timestamp": 1730305,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "DyQF87Cj6RMnAcHY",
+          "tick": false,
+          "timestamp": 1730663,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "19755": {
+      "channel_family": null,
+      "fights": 33,
+      "kinds": {
+        "applydebuff": 682,
+        "damage": 4,
+        "refreshdebuff": 144,
+        "removedebuff": 678
+      },
+      "samples": [
+        {
+          "fight_id": 35,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 20468213,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 35,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 20469730,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 35,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 20500353,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 35,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 20503038,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 35,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 20598009,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "19874": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 8,
+      "kinds": {
+        "damage": 85
+      },
+      "samples": [
+        {
+          "fight_id": 20,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25877685,
+          "type": "damage"
+        },
+        {
+          "fight_id": 20,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25891330,
+          "type": "damage"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 25997841,
+          "type": "damage"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 26006842,
+          "type": "damage"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "PtKXrwfj8zBHm2Gy",
+          "tick": false,
+          "timestamp": 26018796,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "21949": {
+      "channel_family": null,
+      "fights": 9,
+      "kinds": {
+        "applydebuff": 235,
+        "damage": 55,
+        "refreshdebuff": 101,
+        "removedebuff": 235
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11494060,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": false,
+          "timestamp": 11511150,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": true,
+          "timestamp": 11512157,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": true,
+          "timestamp": 11513165,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "7kMdW3TNV16KHFgh",
+          "tick": true,
+          "timestamp": 11514165,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1273
+      },
+      "verified_channel": []
+    },
+    "21952": {
+      "channel_family": null,
+      "fights": 9,
+      "kinds": {
+        "applydebuff": 67,
+        "damage": 21,
+        "refreshdebuff": 5,
+        "removedebuff": 67
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": false,
+          "timestamp": 6528623,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": true,
+          "timestamp": 6529624,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": true,
+          "timestamp": 6530627,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": true,
+          "timestamp": 6531625,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": true,
+          "timestamp": 6532622,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 356
+      },
+      "verified_channel": []
+    },
+    "21961": {
+      "channel_family": null,
+      "fights": 47,
+      "kinds": {
+        "applydebuff": 728,
+        "damage": 1129,
+        "refreshdebuff": 302,
+        "removedebuff": 724
+      },
+      "samples": [
+        {
+          "fight_id": 16,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 26192870,
+          "type": "damage"
+        },
+        {
+          "fight_id": 16,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 26192870,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 16,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 26195158,
+          "type": "damage"
+        },
+        {
+          "fight_id": 16,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 26195159,
+          "type": "refreshdebuff"
+        },
+        {
+          "fight_id": 16,
+          "report_code": "26AYbFNQzMZCmfkh",
+          "tick": false,
+          "timestamp": 26197460,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29502": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 24,
+      "kinds": {
+        "damage": 1684
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "FJdrDz9w1Vxaf2cT",
+          "tick": false,
+          "timestamp": 7567547,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "FJdrDz9w1Vxaf2cT",
+          "tick": false,
+          "timestamp": 7569942,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "FJdrDz9w1Vxaf2cT",
+          "tick": false,
+          "timestamp": 7572235,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "FJdrDz9w1Vxaf2cT",
+          "tick": false,
+          "timestamp": 7954068,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "FJdrDz9w1Vxaf2cT",
+          "tick": false,
+          "timestamp": 7956458,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29638": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 9,
+      "kinds": {
+        "damage": 374
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1fk8KT9QqjvPAB4b",
+          "tick": false,
+          "timestamp": 52974,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1fk8KT9QqjvPAB4b",
+          "tick": false,
+          "timestamp": 54204,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1fk8KT9QqjvPAB4b",
+          "tick": false,
+          "timestamp": 56996,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1fk8KT9QqjvPAB4b",
+          "tick": false,
+          "timestamp": 80784,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1fk8KT9QqjvPAB4b",
+          "tick": false,
+          "timestamp": 84253,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29639": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 15,
+      "kinds": {
+        "damage": 500
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "7tbWfYqJFd4vzL3p",
+          "tick": false,
+          "timestamp": 5687151,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "7tbWfYqJFd4vzL3p",
+          "tick": false,
+          "timestamp": 5687483,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "7tbWfYqJFd4vzL3p",
+          "tick": false,
+          "timestamp": 3733593,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "7tbWfYqJFd4vzL3p",
+          "tick": false,
+          "timestamp": 3737709,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "7tbWfYqJFd4vzL3p",
+          "tick": false,
+          "timestamp": 3788816,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29640": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 5,
+      "kinds": {
+        "damage": 358
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "6AvVhawr1QjRxWBz",
+          "tick": false,
+          "timestamp": 4881637,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "6AvVhawr1QjRxWBz",
+          "tick": false,
+          "timestamp": 5053803,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "6AvVhawr1QjRxWBz",
+          "tick": false,
+          "timestamp": 5071355,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "6AvVhawr1QjRxWBz",
+          "tick": false,
+          "timestamp": 5073340,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "6AvVhawr1QjRxWBz",
+          "tick": false,
+          "timestamp": 5075425,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29644": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 33,
+      "kinds": {
+        "damage": 1316
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 1870860,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 1894846,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 1942635,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 1942651,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 1962434,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29647": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 7,
+      "kinds": {
+        "damage": 428
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "4BAHkN9fDaPCm8wT",
+          "tick": false,
+          "timestamp": 36918,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4BAHkN9fDaPCm8wT",
+          "tick": false,
+          "timestamp": 656105,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4BAHkN9fDaPCm8wT",
+          "tick": false,
+          "timestamp": 658605,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4BAHkN9fDaPCm8wT",
+          "tick": false,
+          "timestamp": 664443,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4BAHkN9fDaPCm8wT",
+          "tick": false,
+          "timestamp": 685104,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "29653": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 22,
+      "kinds": {
+        "damage": 492
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "21qGrg9QZMWBRnbj",
+          "tick": false,
+          "timestamp": 2303600,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "21qGrg9QZMWBRnbj",
+          "tick": false,
+          "timestamp": 87724,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "21qGrg9QZMWBRnbj",
+          "tick": false,
+          "timestamp": 88332,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "21qGrg9QZMWBRnbj",
+          "tick": false,
+          "timestamp": 1005817,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "21qGrg9QZMWBRnbj",
+          "tick": false,
+          "timestamp": 1007756,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1282503": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 74,
+      "kinds": {
+        "damage": 1702
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 54765,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 56201,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 56201,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 115592,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 126181,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1291551": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 18,
+      "kinds": {
+        "damage": 247
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 4199304,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 4202073,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 4260276,
+          "type": "damage"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 4266249,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 2830743,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1291662": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 2,
+      "kinds": {
+        "damage": 18
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "4wHnDaRqY9Z2zv1F",
+          "tick": false,
+          "timestamp": 1800661,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4wHnDaRqY9Z2zv1F",
+          "tick": false,
+          "timestamp": 940100,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4wHnDaRqY9Z2zv1F",
+          "tick": false,
+          "timestamp": 991374,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4wHnDaRqY9Z2zv1F",
+          "tick": false,
+          "timestamp": 998360,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4wHnDaRqY9Z2zv1F",
+          "tick": false,
+          "timestamp": 1076802,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1291663": {
+      "channel_family": null,
+      "fights": 30,
+      "kinds": {
+        "applydebuff": 664,
+        "damage": 46,
+        "refreshdebuff": 182,
+        "removedebuff": 660
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 1515901,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": true,
+          "timestamp": 1518903,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 1519136,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": false,
+          "timestamp": 1557172,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "1yW8PvQFnK7abqAC",
+          "tick": true,
+          "timestamp": 1560155,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 1457
+      },
+      "verified_channel": []
+    },
+    "1292008": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 54,
+        "refreshdebuff": 24,
+        "removedebuff": 54
+      },
+      "samples": [
+        {
+          "fight_id": 12,
+          "report_code": "2kFjvxn3MzRLQWTD",
+          "tick": false,
+          "timestamp": 13544093,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 12,
+          "report_code": "2kFjvxn3MzRLQWTD",
+          "tick": false,
+          "timestamp": 13544867,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 12,
+          "report_code": "2kFjvxn3MzRLQWTD",
+          "tick": false,
+          "timestamp": 13599222,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 12,
+          "report_code": "2kFjvxn3MzRLQWTD",
+          "tick": false,
+          "timestamp": 13600622,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 12,
+          "report_code": "2kFjvxn3MzRLQWTD",
+          "tick": false,
+          "timestamp": 13619986,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292039": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 132,
+      "kinds": {
+        "damage": 13318
+      },
+      "samples": [
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1899648,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1903622,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1909666,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1911691,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1972456,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292152": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 21,
+      "kinds": {
+        "damage": 455
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 73494,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 152371,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 163771,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 261546,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1AMn389QjCPfq2wN",
+          "tick": false,
+          "timestamp": 266258,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292155": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 18,
+      "kinds": {
+        "damage": 148
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6504479,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6519392,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6438376,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6481879,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 6597760,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292573": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 52,
+      "kinds": {
+        "damage": 1388
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1mHkTJgX8G4NDMPx",
+          "tick": false,
+          "timestamp": 664791,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mHkTJgX8G4NDMPx",
+          "tick": false,
+          "timestamp": 690329,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mHkTJgX8G4NDMPx",
+          "tick": false,
+          "timestamp": 704040,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mHkTJgX8G4NDMPx",
+          "tick": false,
+          "timestamp": 728027,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mHkTJgX8G4NDMPx",
+          "tick": false,
+          "timestamp": 835777,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292598": {
+      "channel_family": null,
+      "fights": 3,
+      "kinds": {
+        "applybuff": 5,
+        "refreshbuff": 4,
+        "removebuff": 5
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6J4ANdTDcpPK18M9",
+          "tick": false,
+          "timestamp": 4942958,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6J4ANdTDcpPK18M9",
+          "tick": false,
+          "timestamp": 4957964,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "7mnVXCgpyxkbtZGq",
+          "tick": false,
+          "timestamp": 22027265,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "7mnVXCgpyxkbtZGq",
+          "tick": false,
+          "timestamp": 22030267,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "7mnVXCgpyxkbtZGq",
+          "tick": false,
+          "timestamp": 22033268,
+          "type": "refreshbuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292647": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 15,
+      "kinds": {
+        "damage": 417
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1g2QAZPJrLTjCz3m",
+          "tick": false,
+          "timestamp": 71369,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1g2QAZPJrLTjCz3m",
+          "tick": false,
+          "timestamp": 211354,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1g2QAZPJrLTjCz3m",
+          "tick": false,
+          "timestamp": 215605,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1g2QAZPJrLTjCz3m",
+          "tick": false,
+          "timestamp": 242217,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1g2QAZPJrLTjCz3m",
+          "tick": false,
+          "timestamp": 276711,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292679": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 27,
+      "kinds": {
+        "damage": 737
+      },
+      "samples": [
+        {
+          "fight_id": 19,
+          "report_code": "1AxvQpfrXyTg3dCW",
+          "tick": false,
+          "timestamp": 3432663,
+          "type": "damage"
+        },
+        {
+          "fight_id": 19,
+          "report_code": "1AxvQpfrXyTg3dCW",
+          "tick": false,
+          "timestamp": 3435513,
+          "type": "damage"
+        },
+        {
+          "fight_id": 19,
+          "report_code": "1AxvQpfrXyTg3dCW",
+          "tick": false,
+          "timestamp": 3459765,
+          "type": "damage"
+        },
+        {
+          "fight_id": 19,
+          "report_code": "1AxvQpfrXyTg3dCW",
+          "tick": false,
+          "timestamp": 3460815,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mxnqwaBfWMkVHQT",
+          "tick": false,
+          "timestamp": 4023709,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292851": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 61,
+      "kinds": {
+        "damage": 2434
+      },
+      "samples": [
+        {
+          "fight_id": 140,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25757265,
+          "type": "damage"
+        },
+        {
+          "fight_id": 137,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25574552,
+          "type": "damage"
+        },
+        {
+          "fight_id": 137,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 25576273,
+          "type": "damage"
+        },
+        {
+          "fight_id": 142,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 26120587,
+          "type": "damage"
+        },
+        {
+          "fight_id": 142,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 26134696,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1292879": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 16,
+      "kinds": {
+        "damage": 200
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "2qbAr7t6jJpWD3xM",
+          "tick": false,
+          "timestamp": 22787,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2qbAr7t6jJpWD3xM",
+          "tick": false,
+          "timestamp": 24405,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2qbAr7t6jJpWD3xM",
+          "tick": false,
+          "timestamp": 65713,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2qbAr7t6jJpWD3xM",
+          "tick": false,
+          "timestamp": 67413,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2qbAr7t6jJpWD3xM",
+          "tick": false,
+          "timestamp": 69962,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293005": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 11,
+        "refreshdebuff": 1,
+        "removedebuff": 11
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "wbmNGq93nM6kXxaA",
+          "tick": false,
+          "timestamp": 5493285,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "wbmNGq93nM6kXxaA",
+          "tick": false,
+          "timestamp": 5500999,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "wbmNGq93nM6kXxaA",
+          "tick": false,
+          "timestamp": 5504260,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "wbmNGq93nM6kXxaA",
+          "tick": false,
+          "timestamp": 5514027,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "wbmNGq93nM6kXxaA",
+          "tick": false,
+          "timestamp": 5751265,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293183": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 42,
+      "kinds": {
+        "damage": 1060
+      },
+      "samples": [
+        {
+          "fight_id": 12,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 5389823,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 139211,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 211978,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 211991,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "2K4Z1jLyGWzdnD3f",
+          "tick": false,
+          "timestamp": 311761,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293333": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 120,
+      "kinds": {
+        "damage": 80170
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "1P6cLrJfRKzBtp3n",
+          "tick": false,
+          "timestamp": 2572745,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "1P6cLrJfRKzBtp3n",
+          "tick": false,
+          "timestamp": 2572745,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "1P6cLrJfRKzBtp3n",
+          "tick": false,
+          "timestamp": 2572747,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "1P6cLrJfRKzBtp3n",
+          "tick": false,
+          "timestamp": 2572747,
+          "type": "damage"
+        },
+        {
+          "fight_id": 13,
+          "report_code": "1g2QAZPJrLTjCz3m",
+          "tick": false,
+          "timestamp": 4610663,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293345": {
+      "channel_family": null,
+      "fights": 7,
+      "kinds": {
+        "applybuff": 13,
+        "removebuff": 11
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "6NkdLM9bT1QafAJG",
+          "tick": false,
+          "timestamp": 2514793,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6NkdLM9bT1QafAJG",
+          "tick": false,
+          "timestamp": 2526801,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "6NkdLM9bT1QafAJG",
+          "tick": false,
+          "timestamp": 2871464,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 6,
+          "report_code": "6NkdLM9bT1QafAJG",
+          "tick": false,
+          "timestamp": 2883447,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "6NkdLM9bT1QafAJG",
+          "tick": false,
+          "timestamp": 2947974,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293407": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 19,
+      "kinds": {
+        "damage": 376
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "26ZakMXw4QyRbvDC",
+          "tick": false,
+          "timestamp": 1311965,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "26ZakMXw4QyRbvDC",
+          "tick": false,
+          "timestamp": 1313195,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "26ZakMXw4QyRbvDC",
+          "tick": false,
+          "timestamp": 1318437,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "26ZakMXw4QyRbvDC",
+          "tick": false,
+          "timestamp": 1321059,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "26ZakMXw4QyRbvDC",
+          "tick": false,
+          "timestamp": 1381485,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293518": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 3,
+      "kinds": {
+        "damage": 59
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "68y1GR9CaVNjgt2A",
+          "tick": false,
+          "timestamp": 97738,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "68y1GR9CaVNjgt2A",
+          "tick": false,
+          "timestamp": 121889,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "68y1GR9CaVNjgt2A",
+          "tick": false,
+          "timestamp": 142090,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "68y1GR9CaVNjgt2A",
+          "tick": false,
+          "timestamp": 185307,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "68y1GR9CaVNjgt2A",
+          "tick": false,
+          "timestamp": 196760,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293539": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 211,
+      "kinds": {
+        "damage": 26520
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1vyTrGKzwQdMRmtb",
+          "tick": false,
+          "timestamp": 318,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1vyTrGKzwQdMRmtb",
+          "tick": false,
+          "timestamp": 1260,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1vyTrGKzwQdMRmtb",
+          "tick": false,
+          "timestamp": 6279,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1vyTrGKzwQdMRmtb",
+          "tick": false,
+          "timestamp": 6340,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1vyTrGKzwQdMRmtb",
+          "tick": false,
+          "timestamp": 13792,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293568": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 3,
+      "kinds": {
+        "damage": 161
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "4J7dhZxb3GakBQ8p",
+          "tick": false,
+          "timestamp": 4864036,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "4J7dhZxb3GakBQ8p",
+          "tick": false,
+          "timestamp": 4875109,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4J7dhZxb3GakBQ8p",
+          "tick": false,
+          "timestamp": 4963538,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4J7dhZxb3GakBQ8p",
+          "tick": false,
+          "timestamp": 142920,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4J7dhZxb3GakBQ8p",
+          "tick": false,
+          "timestamp": 183899,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293654": {
+      "channel_family": null,
+      "fights": 9,
+      "kinds": {
+        "applydebuff": 201,
+        "damage": 39,
+        "refreshdebuff": 22,
+        "removedebuff": 199
+      },
+      "samples": [
+        {
+          "fight_id": 16,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 13623473,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 16,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 13627228,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 11143206,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 11149215,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 11168212,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293700": {
+      "channel_family": null,
+      "fights": 50,
+      "kinds": {
+        "applybuff": 538,
+        "refreshbuff": 1343,
+        "removebuff": 520
+      },
+      "samples": [
+        {
+          "fight_id": 155,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 27244008,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 155,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 27247678,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 155,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 27250101,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 155,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 27250661,
+          "type": "refreshbuff"
+        },
+        {
+          "fight_id": 155,
+          "report_code": "1QXAJwhcYL6M7TDk",
+          "tick": false,
+          "timestamp": 27252078,
+          "type": "refreshbuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293714": {
+      "channel_family": null,
+      "fights": 37,
+      "kinds": {
+        "damage": 734,
+        "interrupt": 44
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1aPfK6dCqLQYx9Zt",
+          "tick": false,
+          "timestamp": 326733,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1aPfK6dCqLQYx9Zt",
+          "tick": false,
+          "timestamp": 396356,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1aPfK6dCqLQYx9Zt",
+          "tick": false,
+          "timestamp": 702172,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1aPfK6dCqLQYx9Zt",
+          "tick": false,
+          "timestamp": 1047523,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1hpF2AyzjRdrL78N",
+          "tick": false,
+          "timestamp": 189887,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293787": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 3,
+      "kinds": {
+        "damage": 96
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "4vd9Ng73AYVmZDQL",
+          "tick": false,
+          "timestamp": 114025,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4vd9Ng73AYVmZDQL",
+          "tick": false,
+          "timestamp": 164574,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4vd9Ng73AYVmZDQL",
+          "tick": false,
+          "timestamp": 209964,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4vd9Ng73AYVmZDQL",
+          "tick": false,
+          "timestamp": 276692,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "4vd9Ng73AYVmZDQL",
+          "tick": false,
+          "timestamp": 307659,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1293790": {
+      "channel_family": null,
+      "fights": 38,
+      "kinds": {
+        "applydebuff": 521,
+        "damage": 727,
+        "refreshdebuff": 99,
+        "removedebuff": 520
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 345977,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 345977,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 350981,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 735767,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1RVnhHGv2bwDW9Yr",
+          "tick": false,
+          "timestamp": 735767,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1294243": {
+      "channel_family": null,
+      "fights": 10,
+      "kinds": {
+        "applybuff": 189,
+        "refreshbuff": 71,
+        "removebuff": 185
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "4gpLm8faTJ2Gc31k",
+          "tick": false,
+          "timestamp": 11419671,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4gpLm8faTJ2Gc31k",
+          "tick": false,
+          "timestamp": 11428673,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4gpLm8faTJ2Gc31k",
+          "tick": false,
+          "timestamp": 11431669,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "4gpLm8faTJ2Gc31k",
+          "tick": false,
+          "timestamp": 11440665,
+          "type": "removebuff"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "4gpLm8faTJ2Gc31k",
+          "tick": false,
+          "timestamp": 11536163,
+          "type": "applybuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1294339": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 45,
+      "kinds": {
+        "damage": 438
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "4Jgn7rP8aGtQcZkh",
+          "tick": false,
+          "timestamp": 3476757,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "4Jgn7rP8aGtQcZkh",
+          "tick": false,
+          "timestamp": 3682860,
+          "type": "damage"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "4Jgn7rP8aGtQcZkh",
+          "tick": false,
+          "timestamp": 4100895,
+          "type": "damage"
+        },
+        {
+          "fight_id": 14,
+          "report_code": "4Jgn7rP8aGtQcZkh",
+          "tick": false,
+          "timestamp": 4101893,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "4Jgn7rP8aGtQcZkh",
+          "tick": false,
+          "timestamp": 4299162,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1294430": {
+      "channel_family": null,
+      "fights": 7,
+      "kinds": {
+        "applydebuff": 232,
+        "damage": 316,
+        "refreshdebuff": 72,
+        "removedebuff": 232
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6kJNxp39PWqrghmG",
+          "tick": false,
+          "timestamp": 324515,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6kJNxp39PWqrghmG",
+          "tick": false,
+          "timestamp": 324515,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6kJNxp39PWqrghmG",
+          "tick": false,
+          "timestamp": 331313,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6kJNxp39PWqrghmG",
+          "tick": false,
+          "timestamp": 388523,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6kJNxp39PWqrghmG",
+          "tick": false,
+          "timestamp": 388523,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1294645": {
+      "channel_family": null,
+      "fights": 107,
+      "kinds": {
+        "applydebuff": 1328,
+        "damage": 32,
+        "heal": 3053,
+        "refreshdebuff": 113,
+        "removedebuff": 1327
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9684772,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 9686776,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9686776,
+          "type": "heal"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 9688776,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9688776,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 3052
+      },
+      "verified_channel": []
+    },
+    "1294940": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 45,
+      "kinds": {
+        "damage": 11430
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "1w6chNzbRxygVHmn",
+          "tick": false,
+          "timestamp": 2236326,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1w6chNzbRxygVHmn",
+          "tick": false,
+          "timestamp": 2236326,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1w6chNzbRxygVHmn",
+          "tick": false,
+          "timestamp": 2237282,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1w6chNzbRxygVHmn",
+          "tick": false,
+          "timestamp": 2238315,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1w6chNzbRxygVHmn",
+          "tick": false,
+          "timestamp": 2238731,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1295736": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 11,
+      "kinds": {
+        "damage": 362
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "6bqyrw9j8hmQkpnK",
+          "tick": false,
+          "timestamp": 7072311,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6bqyrw9j8hmQkpnK",
+          "tick": false,
+          "timestamp": 7075265,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "6bqyrw9j8hmQkpnK",
+          "tick": false,
+          "timestamp": 7076414,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "6bqyrw9j8hmQkpnK",
+          "tick": false,
+          "timestamp": 7135672,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "6bqyrw9j8hmQkpnK",
+          "tick": false,
+          "timestamp": 7151511,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1297082": {
+      "channel_family": null,
+      "fights": 20,
+      "kinds": {
+        "applydebuff": 156,
+        "damage": 7,
+        "refreshdebuff": 14,
+        "removedebuff": 154
+      },
+      "samples": [
+        {
+          "fight_id": 10,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 22145159,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 22145894,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 22196332,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 22196332,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 22199024,
+          "type": "refreshdebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1297357": {
+      "channel_family": null,
+      "fights": 4,
+      "kinds": {
+        "applybuff": 16,
+        "refreshbuff": 2,
+        "removebuff": 16
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "2nZF4L6jRhwzGQa9",
+          "tick": false,
+          "timestamp": 2291566,
+          "type": "applybuff"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "2nZF4L6jRhwzGQa9",
+          "tick": true,
+          "timestamp": 2293574,
+          "type": "heal"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "2nZF4L6jRhwzGQa9",
+          "tick": true,
+          "timestamp": 2295573,
+          "type": "heal"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "2nZF4L6jRhwzGQa9",
+          "tick": true,
+          "timestamp": 2297564,
+          "type": "heal"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "2nZF4L6jRhwzGQa9",
+          "tick": true,
+          "timestamp": 2299564,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {
+        "heal": 113
+      },
+      "verified_channel": []
+    },
+    "1297369": {
+      "channel_family": null,
+      "fights": 1,
+      "kinds": {
+        "dispel": 1
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "AYwLfvqh9QyNj6zJ",
+          "tick": false,
+          "timestamp": 837942,
+          "type": "dispel"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1298414": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 2,
+      "kinds": {
+        "damage": 1996
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3985300,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3985300,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3986301,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3986675,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3988296,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1298416": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 69,
+        "damage": 133,
+        "refreshdebuff": 14,
+        "removedebuff": 69
+      },
+      "samples": [
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3990019,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3990019,
+          "type": "damage"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3995028,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3998032,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 3,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 3998032,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1298499": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 39,
+      "kinds": {
+        "damage": 8149
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 5902573,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 5902603,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 5905872,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 5907602,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "JQwbjnVYyGcP4rg8",
+          "tick": false,
+          "timestamp": 5907626,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1299631": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 3,
+      "kinds": {
+        "damage": 163
+      },
+      "samples": [
+        {
+          "fight_id": 17,
+          "report_code": "GRYX7qpgh84fkwar",
+          "tick": false,
+          "timestamp": 19314862,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "GRYX7qpgh84fkwar",
+          "tick": false,
+          "timestamp": 19322705,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "GRYX7qpgh84fkwar",
+          "tick": false,
+          "timestamp": 19325171,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "GRYX7qpgh84fkwar",
+          "tick": false,
+          "timestamp": 19329332,
+          "type": "damage"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "GRYX7qpgh84fkwar",
+          "tick": false,
+          "timestamp": 19330551,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1299869": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "damage": 5,
+        "heal": 5
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "vGdq3ZrKyMAPaTJD",
+          "tick": false,
+          "timestamp": 7413682,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "vGdq3ZrKyMAPaTJD",
+          "tick": false,
+          "timestamp": 7413683,
+          "type": "heal"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "vGdq3ZrKyMAPaTJD",
+          "tick": false,
+          "timestamp": 7776348,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "vGdq3ZrKyMAPaTJD",
+          "tick": false,
+          "timestamp": 7776367,
+          "type": "heal"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "vGdq3ZrKyMAPaTJD",
+          "tick": false,
+          "timestamp": 8033604,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1299943": {
+      "channel_family": null,
+      "fights": 28,
+      "kinds": {
+        "applydebuff": 289,
+        "heal": 774,
+        "refreshdebuff": 9,
+        "removedebuff": 287
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1081722,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1082896,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1672976,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 1674980,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 1674981,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 772
+      },
+      "verified_channel": []
+    },
+    "1300185": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 1,
+      "kinds": {
+        "damage": 37
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": false,
+          "timestamp": 574973,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": false,
+          "timestamp": 574974,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": false,
+          "timestamp": 613361,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": false,
+          "timestamp": 613375,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "6q1mWrtM7zXFckvp",
+          "tick": false,
+          "timestamp": 613375,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1300356": {
+      "channel_family": null,
+      "fights": 24,
+      "kinds": {
+        "heal": 375
+      },
+      "samples": [
+        {
+          "fight_id": 5,
+          "report_code": "74WXQ8yBjJLFbPV3",
+          "tick": false,
+          "timestamp": 5075767,
+          "type": "heal"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "74WXQ8yBjJLFbPV3",
+          "tick": false,
+          "timestamp": 5083992,
+          "type": "heal"
+        },
+        {
+          "fight_id": 10,
+          "report_code": "74WXQ8yBjJLFbPV3",
+          "tick": false,
+          "timestamp": 5934984,
+          "type": "heal"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "74WXQ8yBjJLFbPV3",
+          "tick": false,
+          "timestamp": 7210394,
+          "type": "heal"
+        },
+        {
+          "fight_id": 17,
+          "report_code": "74WXQ8yBjJLFbPV3",
+          "tick": false,
+          "timestamp": 7212929,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1300782": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 38,
+      "kinds": {
+        "damage": 682
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 307268,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 1590889,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 1726394,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 2042168,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 2080616,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1300783": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 15,
+      "kinds": {
+        "damage": 386
+      },
+      "samples": [
+        {
+          "fight_id": 12,
+          "report_code": "2WkFQGcDVYwpTMJ9",
+          "tick": false,
+          "timestamp": 14991167,
+          "type": "damage"
+        },
+        {
+          "fight_id": 12,
+          "report_code": "2WkFQGcDVYwpTMJ9",
+          "tick": false,
+          "timestamp": 15000330,
+          "type": "damage"
+        },
+        {
+          "fight_id": 15,
+          "report_code": "2WkFQGcDVYwpTMJ9",
+          "tick": false,
+          "timestamp": 15216532,
+          "type": "damage"
+        },
+        {
+          "fight_id": 15,
+          "report_code": "2WkFQGcDVYwpTMJ9",
+          "tick": false,
+          "timestamp": 15230159,
+          "type": "damage"
+        },
+        {
+          "fight_id": 15,
+          "report_code": "2WkFQGcDVYwpTMJ9",
+          "tick": false,
+          "timestamp": 15232405,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1300787": {
+      "channel_family": null,
+      "fights": 11,
+      "kinds": {
+        "applydebuff": 60,
+        "damage": 41,
+        "refreshdebuff": 22,
+        "removedebuff": 60
+      },
+      "samples": [
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": false,
+          "timestamp": 20643096,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20644100,
+          "type": "damage"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20645104,
+          "type": "damage"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20646114,
+          "type": "damage"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "DmjBrYd7M9VZwCHF",
+          "tick": true,
+          "timestamp": 20647109,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 311
+      },
+      "verified_channel": []
+    },
+    "1300891": {
+      "channel_family": null,
+      "fights": 17,
+      "kinds": {
+        "heal": 90
+      },
+      "samples": [
+        {
+          "fight_id": 22,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 7016178,
+          "type": "heal"
+        },
+        {
+          "fight_id": 22,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 7016178,
+          "type": "heal"
+        },
+        {
+          "fight_id": 25,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 11711444,
+          "type": "heal"
+        },
+        {
+          "fight_id": 25,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 11711444,
+          "type": "heal"
+        },
+        {
+          "fight_id": 25,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 11713071,
+          "type": "heal"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1302191": {
+      "channel_family": null,
+      "fights": 27,
+      "kinds": {
+        "resourcechange": 171
+      },
+      "samples": [
+        {
+          "fight_id": 10,
+          "report_code": "4pynYMkBdVgRDvKH",
+          "tick": false,
+          "timestamp": 13895365,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "4pynYMkBdVgRDvKH",
+          "tick": false,
+          "timestamp": 8870773,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "4pynYMkBdVgRDvKH",
+          "tick": false,
+          "timestamp": 8906175,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "4pynYMkBdVgRDvKH",
+          "tick": false,
+          "timestamp": 8914330,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "4pynYMkBdVgRDvKH",
+          "tick": false,
+          "timestamp": 9009161,
+          "type": "resourcechange"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1302247": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 39,
+      "kinds": {
+        "damage": 10081
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 15290569,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 15291151,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 15294371,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 15295876,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "4f2ygdYCzFAvqc6K",
+          "tick": false,
+          "timestamp": 15295977,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1302279": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 6,
+      "kinds": {
+        "damage": 284
+      },
+      "samples": [
+        {
+          "fight_id": 31,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 18047878,
+          "type": "damage"
+        },
+        {
+          "fight_id": 31,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 18050688,
+          "type": "damage"
+        },
+        {
+          "fight_id": 29,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 15944422,
+          "type": "damage"
+        },
+        {
+          "fight_id": 29,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 15999647,
+          "type": "damage"
+        },
+        {
+          "fight_id": 29,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 16073332,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1302342": {
+      "channel_family": null,
+      "fights": 72,
+      "kinds": {
+        "applydebuff": 961,
+        "applydebuffstack": 276,
+        "damage": 140,
+        "refreshdebuff": 67,
+        "removedebuff": 958,
+        "removedebuffstack": 1
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 206020,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 215747,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 262528,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 266700,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 283708,
+          "type": "applydebuff"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1302350": {
+      "channel_family": null,
+      "fights": 7,
+      "kinds": {
+        "resourcechange": 76
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9617670,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9645965,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 388326,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 416086,
+          "type": "resourcechange"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 431160,
+          "type": "resourcechange"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1308777": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 244,
+      "kinds": {
+        "damage": 30804
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9582370,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9584376,
+          "type": "damage"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 24388418,
+          "type": "damage"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 24388492,
+          "type": "damage"
+        },
+        {
+          "fight_id": 40,
+          "report_code": "1bgXr3HRqG2cTnjQ",
+          "tick": false,
+          "timestamp": 24419447,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1312176": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 5,
+      "kinds": {
+        "damage": 221
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "C8z3gcnBYGZQXJv2",
+          "tick": false,
+          "timestamp": 4419909,
+          "type": "damage"
+        },
+        {
+          "fight_id": 4,
+          "report_code": "C8z3gcnBYGZQXJv2",
+          "tick": false,
+          "timestamp": 4421214,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "C8z3gcnBYGZQXJv2",
+          "tick": false,
+          "timestamp": 4468227,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "C8z3gcnBYGZQXJv2",
+          "tick": false,
+          "timestamp": 4516262,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "C8z3gcnBYGZQXJv2",
+          "tick": false,
+          "timestamp": 4521125,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1314888": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 31,
+        "refreshdebuff": 5,
+        "removedebuff": 31
+      },
+      "samples": [
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9646631,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": true,
+          "timestamp": 9649635,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1VpHn3kYq6B8JMWw",
+          "tick": false,
+          "timestamp": 9652409,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "3Nwp2MvmkjHhA1JT",
+          "tick": false,
+          "timestamp": 947452,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "3Nwp2MvmkjHhA1JT",
+          "tick": true,
+          "timestamp": 950452,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 65
+      },
+      "verified_channel": []
+    },
+    "1320269": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 44,
+      "kinds": {
+        "damage": 1702
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 97576,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 121827,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 193001,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 292183,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "24ZKBL3XhzwJcjGA",
+          "tick": false,
+          "timestamp": 295875,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1320498": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 1,
+      "kinds": {
+        "damage": 122
+      },
+      "samples": [
+        {
+          "fight_id": 2,
+          "report_code": "3Mf6DQmbtwWJzhVB",
+          "tick": false,
+          "timestamp": 409379,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "3Mf6DQmbtwWJzhVB",
+          "tick": false,
+          "timestamp": 409379,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "3Mf6DQmbtwWJzhVB",
+          "tick": false,
+          "timestamp": 421592,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "3Mf6DQmbtwWJzhVB",
+          "tick": false,
+          "timestamp": 436507,
+          "type": "damage"
+        },
+        {
+          "fight_id": 2,
+          "report_code": "3Mf6DQmbtwWJzhVB",
+          "tick": false,
+          "timestamp": 436507,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1320824": {
+      "channel_family": null,
+      "fights": 2,
+      "kinds": {
+        "applydebuff": 57,
+        "damage": 14,
+        "refreshdebuff": 15,
+        "removedebuff": 57
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 62018,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": true,
+          "timestamp": 64032,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 64468,
+          "type": "removedebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": false,
+          "timestamp": 169590,
+          "type": "applydebuff"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "fMLcHzyZvt7QTCmg",
+          "tick": true,
+          "timestamp": 171595,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {
+        "damage": 220
+      },
+      "verified_channel": []
+    },
+    "1322218": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 46,
+      "kinds": {
+        "damage": 536
+      },
+      "samples": [
+        {
+          "fight_id": 4,
+          "report_code": "1v83HdMtWPqLy9FD",
+          "tick": false,
+          "timestamp": 3284294,
+          "type": "damage"
+        },
+        {
+          "fight_id": 5,
+          "report_code": "1v83HdMtWPqLy9FD",
+          "tick": false,
+          "timestamp": 3376008,
+          "type": "damage"
+        },
+        {
+          "fight_id": 7,
+          "report_code": "1v83HdMtWPqLy9FD",
+          "tick": false,
+          "timestamp": 3520483,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1v83HdMtWPqLy9FD",
+          "tick": false,
+          "timestamp": 3616173,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1v83HdMtWPqLy9FD",
+          "tick": false,
+          "timestamp": 3630505,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1322295": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 31,
+      "kinds": {
+        "damage": 1413
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "1mxnqwaBfWMkVHQT",
+          "tick": false,
+          "timestamp": 302041,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mxnqwaBfWMkVHQT",
+          "tick": false,
+          "timestamp": 325985,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mxnqwaBfWMkVHQT",
+          "tick": false,
+          "timestamp": 484626,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mxnqwaBfWMkVHQT",
+          "tick": false,
+          "timestamp": 530845,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "1mxnqwaBfWMkVHQT",
+          "tick": false,
+          "timestamp": 609902,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1324685": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 5,
+      "kinds": {
+        "damage": 1199
+      },
+      "samples": [
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1899648,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1903622,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1909666,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1911691,
+          "type": "damage"
+        },
+        {
+          "fight_id": 8,
+          "report_code": "1XprdzLNRh4ZJqvK",
+          "tick": false,
+          "timestamp": 1972456,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    },
+    "1325229": {
+      "channel_family": [
+        "damage"
+      ],
+      "fights": 33,
+      "kinds": {
+        "damage": 609
+      },
+      "samples": [
+        {
+          "fight_id": 1,
+          "report_code": "ZHpKVnhPDGyaTrvw",
+          "tick": false,
+          "timestamp": 45148,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "ZHpKVnhPDGyaTrvw",
+          "tick": false,
+          "timestamp": 82925,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "ZHpKVnhPDGyaTrvw",
+          "tick": false,
+          "timestamp": 149825,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "ZHpKVnhPDGyaTrvw",
+          "tick": false,
+          "timestamp": 173124,
+          "type": "damage"
+        },
+        {
+          "fight_id": 1,
+          "report_code": "ZHpKVnhPDGyaTrvw",
+          "tick": false,
+          "timestamp": 194305,
+          "type": "damage"
+        }
+      ],
+      "tick_kinds": {},
+      "verified_channel": []
+    }
+  },
+  "targets": [
+    56,
+    7714,
+    8191,
+    8313,
+    8348,
+    9632,
+    9777,
+    9796,
+    9800,
+    9806,
+    10351,
+    10370,
+    11657,
+    11790,
+    11879,
+    12686,
+    12731,
+    13049,
+    13318,
+    13438,
+    13439,
+    13440,
+    13442,
+    13480,
+    13482,
+    13486,
+    13490,
+    13491,
+    13496,
+    13518,
+    13519,
+    13524,
+    13526,
+    13527,
+    13528,
+    13530,
+    13532,
+    13534,
+    13752,
+    14106,
+    14118,
+    14119,
+    14126,
+    15280,
+    15283,
+    15602,
+    15662,
+    16400,
+    16401,
+    16403,
+    16405,
+    16406,
+    16408,
+    16409,
+    16413,
+    16414,
+    16415,
+    16433,
+    16454,
+    16528,
+    16549,
+    16551,
+    16559,
+    16602,
+    16603,
+    16608,
+    16614,
+    16621,
+    16782,
+    16784,
+    16871,
+    16898,
+    16908,
+    16916,
+    16921,
+    16927,
+    16928,
+    16939,
+    17148,
+    17152,
+    17153,
+    17154,
+    17196,
+    17308,
+    17315,
+    17331,
+    17351,
+    17352,
+    17407,
+    17483,
+    17496,
+    17504,
+    17505,
+    17506,
+    17510,
+    17511,
+    18075,
+    18077,
+    18078,
+    18081,
+    18082,
+    18083,
+    18084,
+    18088,
+    18089,
+    18090,
+    18091,
+    18092,
+    18104,
+    18107,
+    18112,
+    18138,
+    18197,
+    18199,
+    18200,
+    18202,
+    18206,
+    18208,
+    18211,
+    18214,
+    18217,
+    18276,
+    18289,
+    18381,
+    18398,
+    18633,
+    18652,
+    18656,
+    18796,
+    18798,
+    18803,
+    18817,
+    18828,
+    18833,
+    19755,
+    19874,
+    20586,
+    21142,
+    21152,
+    21159,
+    21162,
+    21179,
+    21949,
+    21952,
+    21961,
+    21992,
+    22850,
+    22863,
+    23454,
+    23592,
+    23604,
+    23605,
+    26108,
+    29502,
+    29638,
+    29639,
+    29640,
+    29641,
+    29644,
+    29646,
+    29647,
+    29653,
+    418509,
+    1282482,
+    1282503,
+    1290950,
+    1291551,
+    1291570,
+    1291662,
+    1291663,
+    1292008,
+    1292039,
+    1292152,
+    1292155,
+    1292158,
+    1292573,
+    1292598,
+    1292647,
+    1292679,
+    1292851,
+    1292879,
+    1293005,
+    1293183,
+    1293333,
+    1293345,
+    1293407,
+    1293433,
+    1293518,
+    1293539,
+    1293568,
+    1293653,
+    1293654,
+    1293700,
+    1293714,
+    1293787,
+    1293790,
+    1294065,
+    1294226,
+    1294243,
+    1294258,
+    1294339,
+    1294426,
+    1294430,
+    1294537,
+    1294645,
+    1294940,
+    1295736,
+    1296730,
+    1297082,
+    1297357,
+    1297369,
+    1298414,
+    1298416,
+    1298499,
+    1298501,
+    1299631,
+    1299850,
+    1299869,
+    1299943,
+    1300130,
+    1300185,
+    1300209,
+    1300356,
+    1300753,
+    1300782,
+    1300783,
+    1300787,
+    1300891,
+    1302166,
+    1302191,
+    1302247,
+    1302279,
+    1302342,
+    1302343,
+    1302344,
+    1302350,
+    1302354,
+    1308777,
+    1309315,
+    1309550,
+    1312176,
+    1312438,
+    1314040,
+    1314069,
+    1314305,
+    1314888,
+    1315767,
+    1316039,
+    1316346,
+    1316865,
+    1317432,
+    1317583,
+    1318068,
+    1318108,
+    1318121,
+    1318163,
+    1318178,
+    1318250,
+    1320269,
+    1320498,
+    1320824,
+    1320925,
+    1322218,
+    1322295,
+    1324685,
+    1325229,
+    1325509
+  ]
+}
